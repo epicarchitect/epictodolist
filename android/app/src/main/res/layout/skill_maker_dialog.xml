@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/FrameLayout"
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout"/>
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar_with_done"/>
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            style="@style/IconLeft"
+                            android:id="@+id/icon"
+                            android:contentDescription="0"
+                            app:srcCompat="@drawable/icon_0" />
+
+                        <EditText
+                            style="@style/EditText"
+                            android:id="@+id/input_title"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/small_margin"
+                            android:hint="@string/title" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <TextView
+                            style="@style/TextView"
+                            android:text="@string/attribute" />
+
+                        <Spinner
+                            style="@style/Spinner"
+                            android:id="@+id/spinner_attribute" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

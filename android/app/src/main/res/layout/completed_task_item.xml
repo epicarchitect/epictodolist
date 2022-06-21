@@ -1,0 +1,47 @@
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:leftEdgeSwipeOffset="0dp"
+    app:rightEdgeSwipeOffset="0dp">
+
+    <LinearLayout
+        android:id="@+id/right_side"
+        style="@style/SwipeLinearLayout">
+
+        <ImageView
+            android:id="@+id/button_copy"
+            style="@style/SwipeButtonCopy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/left_side"
+        style="@style/SwipeLinearLayout">
+
+        <ImageView
+            android:id="@+id/button_delete"
+            style="@style/SwipeButtonDelete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        style="@style/HorizontalLinearLayout"
+        android:background="?attr/selectableItemBackground"
+        android:padding="@dimen/margin">
+
+        <ImageView
+            android:id="@+id/icon"
+            style="@style/Icon"
+            app:srcCompat="@drawable/icon_default" />
+
+        <TextView
+            android:id="@+id/content"
+            style="@style/ListItemContent" />
+
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>

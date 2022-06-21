@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="create_notification">Aggiungi una notifica.</string>
+    <string name="task">Missioni</string>
+    <string name="skill">Abilità</string>
+    <string name="whole_progress">Progressione</string>
+    <string name="count_completed_tasks">Missioni completate</string>
+    <string name="title">Titolo</string>
+    <string name="to_do">Da fare</string>
+    <string name="done">Completata</string>
+    <string name="autocopy_days">Imposta i giorni automaticamente</string>
+    <string name="autocopy_time">Imposta l\'ora automaticamente</string>
+    <string name="next_in">Prossimo alle-il</string>
+    <string name="attribute">Attributo.</string>
+    <string name="got_it">Capito.</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout">
+
+    <Spinner
+        android:id="@+id/spinner_chart_mode"
+        style="@style/Spinner" />
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_height="0dp"
+        android:id="@+id/custom_interval_layout">
+
+        <TextView
+            style="@style/TextView"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_gravity="center"
+            android:text="@string/start_date"/>
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <Spinner
+                android:id="@+id/spinner_day_1"
+                style="@style/Spinner"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/spinner_month_1"
+                style="@style/Spinner"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/spinner_year_1"
+                style="@style/Spinner"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/margin"
+            style="@style/TextView"
+            android:layout_gravity="center"
+            android:text="@string/final_date"/>
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <Spinner
+                android:id="@+id/spinner_day_2"
+                style="@style/Spinner"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/spinner_month_2"
+                style="@style/Spinner"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/spinner_year_2"
+                style="@style/Spinner"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/Button"
+            android:layout_marginTop="@dimen/margin"
+            android:id="@+id/button_show"
+            android:text="@string/build_a_graph"/>
+
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+</LinearLayout>

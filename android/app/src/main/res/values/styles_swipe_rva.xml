@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SwipeButton">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">28dp</item>
+    </style>
+
+    <style name="SwipeLinearLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="SwipeButtonDelete" parent="SwipeButton">
+        <item name="android:src">@drawable/ic_delete</item>
+        <item name="android:background">@color/colorDelete</item>
+    </style>
+
+    <style name="SwipeButtonDone" parent="SwipeButton">
+        <item name="android:src">@drawable/ic_done</item>
+        <item name="android:background">@color/colorDone</item>
+    </style>
+
+    <style name="SwipeButtonEdit" parent="SwipeButton">
+        <item name="android:src">@drawable/ic_edit</item>
+        <item name="android:background">@color/colorEdit</item>
+    </style>
+
+    <style name="SwipeButtonCopy" parent="SwipeButton">
+        <item name="android:src">@drawable/ic_copy</item>
+        <item name="android:background">@color/colorCopy</item>
+    </style>
+
+</resources>

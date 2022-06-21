@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/BackgroundLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:id="@+id/scroll_view">
+
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:paddingBottom="@dimen/margin">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:id="@+id/name"
+                android:layout_height="45dp"
+                android:text="Александр"/>
+
+            <FrameLayout style="@style/FrameLayout">
+
+                <FrameLayout style="@style/HeroFrameLayout"
+                    android:id="@+id/hero_frame">
+
+                    <FrameLayout style="@style/FrameLayout"
+                        android:id="@+id/hero_body_container"/>
+
+                    <include layout="@layout/top_border_layout"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    style="@style/FrameLayout"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        style="@style/HorizontalLinearLayout"
+                        android:layout_height="match_parent"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            style="@style/LinearLayout"
+                            android:layout_weight="1"
+                            android:gravity="start">
+
+                            <ImageView
+                                style="@style/ImageView"
+                                android:id="@+id/container_theme"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="@drawable/square"
+                                android:padding="@dimen/margin"
+                                app:srcCompat="@drawable/ic_void"
+                                android:layout_margin="@dimen/big_margin"/>
+
+                            <ImageView
+                                style="@style/ImageView"
+                                android:id="@+id/container_weapon"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="@drawable/square"
+                                android:padding="@dimen/margin"
+                                app:srcCompat="@drawable/ic_void"
+                                android:layout_margin="@dimen/big_margin"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/LinearLayout"
+                            android:layout_weight="1"
+                            android:gravity="end">
+
+                            <ImageView
+                                style="@style/ImageView"
+                                android:id="@+id/container_costume"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="@drawable/square"
+                                android:padding="@dimen/margin"
+                                app:srcCompat="@drawable/ic_void"
+                                android:layout_margin="@dimen/big_margin"/>
+
+                            <ImageView
+                                style="@style/ImageView"
+                                android:id="@+id/container_location"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="@drawable/square"
+                                android:padding="@dimen/margin"
+                                app:srcCompat="@drawable/ic_void"
+                                android:layout_margin="@dimen/big_margin"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                style="@style/FrameLayout"
+                android:layout_height="wrap_content"
+                android:id="@+id/navigation_container"
+                android:layout_marginTop="@dimen/margin"/>
+
+            <FrameLayout
+                style="@style/FrameLayout"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/rv_container"
+                android:layout_marginTop="@dimen/margin"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

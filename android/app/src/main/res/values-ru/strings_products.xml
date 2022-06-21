@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="unlocked">Разблокировано</string>
+    <string name="take_off">Снять</string>
+    <string name="it_cant_be_removed">Это нельзя снять</string>
+
+    <string name="features">Функции</string>
+    <string name="themes">Темы</string>
+    <string name="costumes">Костюмы</string>
+    <string name="locations">Локации</string>
+
+    <string name="unlock_part">Разблокировать часть</string>
+    <string name="activate">Активировать</string>
+
+    <string name="not_enough_crystals">Не хватает кристаллов</string>
+    <string name="not_enough_coins">Не хватает монет</string>
+    <string name="already_unlocked">Уже разблокировано</string>
+    <string name="part_unlocked">Часть разблокирована</string>
+
+    <string name="costume_warrior">Рыцарь</string>
+
+    <string name="notifications">Уведомления</string>
+    <string name="attribute_graph">График атрибутов</string>
+    <string name="task_list_widget">Виджет - список заданий</string>
+    <string name="copy_tasks_feature">Повторяющиеся задания</string>
+
+    <string name="home_of_creator">Дом Создателя</string>
+    <string name="forest">Лес</string>
+
+    <string name="peach_theme">Персиковая тема</string>
+    <string name="iron_theme">Железная тема</string>
+    <string name="woody_theme">Древесная тема</string>
+    <string name="system_theme">Системная тема</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="learning_is_forgotten">Обучение забыто</string>
+    <string name="learning_missed">Обучение пропущено</string>
+
+    <string name="settings">Настройки</string>
+
+    <string name="forget_learning">Забыть обучение</string>
+    <string name="miss_learning">Пропустить обучение</string>
+
+    <string name="show_title_nav">Показывать название при переключении на новую вкладку</string>
+    <string name="new_task_notification">Присылать уведомление о появлении новых запланированных заданий</string>
+
+</resources>

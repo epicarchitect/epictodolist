@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/BackgroundLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:clickable="true"
+    android:id="@+id/main_layout"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:id="@+id/top_bar_create"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <View
+                android:id="@+id/status_bar_view"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+
+            <LinearLayout
+                style="@style/HorizontalLinearLayout">
+
+                <TextView
+                    style="@style/TitleTextView"
+                    android:id="@+id/title"
+                    android:text="@string/hero_creating"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="45dp"/>
+
+                <ImageView
+                    style="@style/ImageDone"
+                    android:focusable="true"
+                    android:id="@+id/button_done_create" />
+
+            </LinearLayout>
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/input_name_create"
+                android:gravity="center"
+                android:hint="@string/hero_name"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:layout_marginLeft="@dimen/big_margin"
+                android:layout_marginRight="@dimen/big_margin"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayout"
+            android:id="@+id/top_bar_edit"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/ImageBack"
+                android:focusable="true"
+                android:id="@+id/button_back" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/input_name"
+                android:gravity="center"
+                android:hint="@string/hero_name"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:layout_marginLeft="@dimen/big_margin"
+                android:layout_marginRight="@dimen/big_margin"
+                android:layout_weight="1"/>
+
+            <ImageView
+                style="@style/ImageDone"
+                android:focusable="true"
+                android:id="@+id/button_done" />
+
+        </LinearLayout>
+
+        <ScrollView
+            style="@style/ScrollView"
+            android:id="@+id/scroll_view">
+
+            <LinearLayout style="@style/LinearLayout">
+
+                <FrameLayout
+                    style="@style/FrameLayout"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        style="@style/HeroFrameLayout"
+                        android:id="@+id/hero_frame">
+
+                        <FrameLayout style="@style/FrameLayout"
+                            android:id="@+id/hero_body_container"/>
+
+                        <include layout="@layout/top_border_layout" />
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        style="@style/LinearLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center|end">
+
+                        <ImageView style="@style/SmallIcon"
+                            android:id="@+id/button_headdress"
+                            android:layout_margin="@dimen/small_margin"
+                            app:srcCompat="@drawable/ic_headdress_hide"/>
+
+                        <ImageView style="@style/SmallIcon"
+                            android:id="@+id/button_random"
+                            android:layout_margin="@dimen/small_margin"
+                            app:srcCompat="@drawable/ic_random"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    style="@style/HorizontalLinearLayout"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/small_margin">
+
+                    <ImageView
+                        style="@style/ImageViewButton"
+                        android:padding="@dimen/small_margin"
+                        android:id="@+id/button_gender_0"
+                        android:background="@drawable/bg_active"
+                        app:srcCompat="@drawable/ic_man" />
+
+                    <ImageView
+                        style="@style/ImageViewButton"
+                        android:padding="@dimen/small_margin"
+                        android:id="@+id/button_gender_1"
+                        app:srcCompat="@drawable/ic_woman" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    style="@style/FrameLayout"
+                    android:id="@+id/navigation_container"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    style="@style/RecyclerView"
+                    android:id="@+id/rv_parts"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

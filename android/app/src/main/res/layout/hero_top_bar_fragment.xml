@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/BackgroundLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="44dp"
+    android:padding="@dimen/small_margin">
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            style="@style/FrameLayout"
+            android:layout_weight="1">
+
+            <ProgressBar
+                style="@style/ProgressBar"
+                android:id="@+id/progress_bar"
+                android:layout_gravity="center"/>
+
+            <TextView
+                style="@style/SecondaryTextView"
+                android:id="@+id/progress_of_level"
+                android:layout_gravity="center"
+                android:text="0/0" />
+
+            <TextView
+                style="@style/Level"
+                android:id="@+id/level"
+                android:layout_gravity="center_vertical"/>
+
+        </FrameLayout>
+
+        <ImageView
+            style="@style/SmallIcon"
+            app:srcCompat="@drawable/ic_coin"
+            android:layout_marginLeft="@dimen/small_margin"/>
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/coins"
+            android:text="0"/>
+
+
+        <ImageView
+            style="@style/SmallIcon"
+            app:srcCompat="@drawable/ic_crystal"/>
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/crystals"
+            android:layout_marginEnd="@dimen/small_margin"
+            android:text="0" />
+
+    </LinearLayout>
+
+</FrameLayout>

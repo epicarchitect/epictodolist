@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+  <group>
+    <clip-path android:pathData="M0,0h1000v1000h-1000z M 0,0"/>
+    <path
+        android:name="back_hair"
+        android:pathData="M295,661L500,661L692,654L594,327L411,327L295,661Z"
+        android:fillColor="#333333"/>
+    <path
+        android:pathData="M295,661L500,661L692,654L594,327L411,327L295,661Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.3"/>
+  </group>
+</vector>

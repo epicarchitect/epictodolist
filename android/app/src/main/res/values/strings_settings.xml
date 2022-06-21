@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="learning_is_forgotten">Tutorial is forgotten</string>
+    <string name="learning_missed">Tutorial missed</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="forget_learning">Forget tutorial</string>
+    <string name="miss_learning">Miss tutorial</string>
+
+    <string name="show_title_nav">Show title when switching to a new tab</string>
+    <string name="new_task_notification">Send notification of new scheduled tasks</string>
+
+</resources>

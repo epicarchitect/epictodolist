@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:autoMirrored="true"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+    <group>
+        <clip-path android:pathData="M0,0h1000v1000h-1000z M 0,0" />
+        <path
+            android:fillColor="?attr/colorPrimaryDark"
+            android:pathData="M0.0,0.0h1000.0v1000.0h-1000.0z" />
+        <path
+            android:fillColor="#971351"
+            android:pathData="M50.0,50.0h900.0v900.0h-900.0z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M500.0,284.0m-168.0,0.0a168.0,168.0,0,1,1,336.0,0.0a168.0,168.0,0,1,1,-336.0,0.0" />
+        <path
+            android:fillColor="#971351"
+            android:pathData="M500.0,284.0m-82.78571,0.0a82.78571,82.78571,0,1,1,165.57143,0.0a82.78571,82.78571,0,1,1,-165.57143,0.0" />
+        <path
+            android:fillColor="#000000"
+            android:pathData=" M 474 428 L 474 850 L 532 850 L 532 428 L 474 428 Z "
+            android:strokeWidth="1"
+            android:strokeColor="#000000"
+            android:strokeLineCap="square"
+            android:strokeLineJoin="miter" />
+        <path
+            android:fillColor="#000000"
+            android:pathData=" M 332 654 L 332 706 L 668 706 L 668 654 L 332 654 Z "
+            android:strokeWidth="1"
+            android:strokeColor="#000000"
+            android:strokeLineCap="square"
+            android:strokeLineJoin="miter" />
+    </group>
+</vector>

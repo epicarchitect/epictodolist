@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Launcher" parent="DefaultTheme">
+        <item name="android:windowBackground">@drawable/launcher_screen</item>
+    </style>
+
+    <style name="DefaultTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimary">#F9D798</item>
+        <item name="colorPrimaryDark">#704020</item>
+        <item name="colorPrimaryDarkRipple">#33CAB47C</item>
+        <item name="colorAccent">#FF9000</item>
+        <item name="colorSecondary">#CAB47C</item>
+        <item name="colorFrame">#CAB47C</item>
+        <item name="colorFrameBackground">#FFEBB8</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:navigationBarDividerColor" tools:targetApi="o_mr1">?attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="IronTheme" parent="DefaultTheme">
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#333</item>
+        <item name="colorPrimaryDarkRipple">#33B8B8B8</item>
+        <item name="colorAccent">#B8B8B8</item>
+        <item name="colorSecondary">#B8B8B8</item>
+        <item name="colorFrame">#555</item>
+        <item name="colorFrameBackground">#ddd</item>
+    </style>
+
+    <style name="PeachTheme" parent="DefaultTheme">
+        <item name="colorPrimary">#FFB07A</item>
+        <item name="colorPrimaryDark">#491D00</item>
+        <item name="colorPrimaryDarkRipple">#339C8154</item>
+        <item name="colorAccent">#FF6600</item>
+        <item name="colorSecondary">#9C8154</item>
+        <item name="colorFrame">#923300</item>
+        <item name="colorFrameBackground">#DAAE8D</item>
+    </style>
+
+    <style name="WoodyTheme" parent="DefaultTheme">
+        <item name="colorPrimary">#EBD5C1</item>
+        <item name="colorPrimaryDark">#461F01</item>
+        <item name="colorPrimaryDarkRipple">#339B7963</item>
+        <item name="colorAccent">#5BBD26</item>
+        <item name="colorSecondary">#9B7963</item>
+        <item name="colorFrame">#804D25</item>
+        <item name="colorFrameBackground">#D8AB90</item>
+    </style>
+
+    <style name="NightTheme" parent="DefaultTheme">
+        <item name="colorPrimary">#DAE3F7</item>
+        <item name="colorPrimaryDark">#011046</item>
+        <item name="colorPrimaryDarkRipple">#33A1A6BD</item>
+        <item name="colorAccent">#F0C32A</item>
+        <item name="colorSecondary">#A1A6BD</item>
+        <item name="colorFrame">#172C63</item>
+        <item name="colorFrameBackground">#B7CBEE</item>
+    </style>
+
+    <style name="PinkTheme" parent="DefaultTheme">
+        <item name="colorPrimary">#FBDFFF</item>
+        <item name="colorPrimaryDark">#2E0130</item>
+        <item name="colorPrimaryDarkRipple">#33C28AD1</item>
+        <item name="colorAccent">#FA61D6</item>
+        <item name="colorSecondary">#C28AD1</item>
+        <item name="colorFrame">#A30A7B</item>
+        <item name="colorFrameBackground">#FDEBF8</item>
+    </style>
+
+
+</resources>

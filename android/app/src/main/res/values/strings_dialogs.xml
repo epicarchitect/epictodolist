@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="create_notification">Add notification</string>
+    <string name="task">Task</string>
+    <string name="skill">Skill</string>
+    <string name="whole_progress">Whole progress</string>
+    <string name="count_completed_tasks">Completed tasks</string>
+    <string name="title">Title</string>
+    <string name="to_do">To-do</string>
+    <string name="done">Done</string>
+    <string name="autocopy_days">Autocreate days</string>
+    <string name="autocopy_time">Autocreate time</string>
+    <string name="next_in">Next in</string>
+    <string name="attribute">Attribute</string>
+    <string name="got_it">Got it</string>
+
+</resources>

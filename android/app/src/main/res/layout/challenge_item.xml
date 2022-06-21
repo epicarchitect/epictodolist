@@ -1,0 +1,73 @@
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:leftEdgeSwipeOffset="0dp"
+    app:rightEdgeSwipeOffset="0dp">
+
+    <LinearLayout
+        android:id="@+id/right_side"
+        style="@style/SwipeLinearLayout">
+
+        <ImageView
+            android:id="@+id/button_edit"
+            style="@style/SwipeButtonEdit" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/left_side"
+        style="@style/SwipeLinearLayout">
+
+        <ImageButton
+            android:id="@+id/button_delete"
+            style="@style/SwipeButtonDelete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        style="@style/LinearLayout"
+        android:padding="@dimen/margin"
+        android:background="?attr/selectableItemBackground">
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                android:id="@+id/icon"
+                style="@style/Icon"
+                app:srcCompat="@drawable/icon_default" />
+
+            <LinearLayout
+                style="@style/LinearLayout"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/ListItemContent"
+                    android:lines="2" />
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    style="@style/SecondaryTextView"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:lines="1"
+                    tools:text="Status: active" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_activate"
+                style="@style/Button"
+                android:layout_width="wrap_content"
+                tools:text="fail" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>

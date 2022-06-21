@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Icon" parent="ImageView">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/frame_default</item>
+    </style>
+
+    <style name="SmallIcon" parent="ImageView">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:padding">@dimen/small_margin</item>
+    </style>
+
+    <style name="IconLeft" parent="Icon">
+        <item name="android:layout_marginLeft">-4dp</item>
+    </style>
+
+</resources>

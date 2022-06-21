@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/HorizontalLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        style="@style/ImageBack"
+        android:id="@+id/button_back" />
+
+    <TextView
+        style="@style/TitleTextView"
+        android:id="@+id/title"
+        android:layout_weight="1"/>
+
+    <ImageView
+        style="@style/ImageDone"
+        android:id="@+id/button_done" />
+
+</LinearLayout>

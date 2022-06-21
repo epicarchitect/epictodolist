@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/HorizontalLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="125dp"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp">
+
+
+    <FrameLayout
+        style="@style/FrameLayout"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="@dimen/margin">
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/tv_message"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLines="5"
+            android:paddingLeft="@dimen/small_margin"
+            android:paddingRight="@dimen/small_margin"
+            android:text="Очень важное сообщение!" />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

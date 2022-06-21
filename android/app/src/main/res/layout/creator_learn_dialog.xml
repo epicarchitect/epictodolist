@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/FrameLayout"
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout style="@style/ShadowLayoutDialog"/>
+
+    <FrameLayout
+        style="@style/FrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <LinearLayout style="@style/LinearLayout">
+
+            <FrameLayout
+                style="@style/FrameLayout"
+                android:id="@+id/message_container"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:background="@drawable/border"
+                android:layout_marginRight="@dimen/dialog_margin"
+                android:layout_marginTop="@dimen/dialog_margin"
+                android:layout_marginLeft="@dimen/dialog_margin"
+                android:layout_marginBottom="-50dp">
+
+                <TextView
+                    style="@style/TextView"
+                    android:id="@+id/tv_message"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/big_margin"
+                    tools:text="@string/learn_unlock_copy_tasks_message" />
+
+            </FrameLayout>
+
+
+
+            <FrameLayout
+                android:id="@+id/creator_frame"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="-50dp">
+
+                <FrameLayout style="@style/FrameLayout"
+                    android:id="@+id/creator_body_container"/>
+
+            </FrameLayout>
+
+            <FrameLayout style="@style/BorderLayout"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="@dimen/margin"
+                android:layout_marginEnd="@dimen/margin"
+                android:layout_marginBottom="@dimen/margin">
+
+                <include layout="@layout/border_layout"/>
+
+                <LinearLayout style="@style/BackgroundLayoutDialog">
+
+                    <include layout="@layout/title_bar"/>
+
+                    <ScrollView style="@style/ScrollView">
+
+                        <LinearLayout style="@style/LinearLayout">
+
+                            <LinearLayout
+                                style="@style/LinearLayout"
+                                android:id="@+id/learn_buttons_layout"
+                                android:layout_marginStart="@dimen/margin"
+                                android:layout_marginEnd="@dimen/margin"
+                                android:layout_marginBottom="@dimen/margin">
+
+                                <Button
+                                    style="@style/Button"
+                                    android:id="@+id/button_question_0"
+                                    android:text="button_0" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:id="@+id/button_question_1"
+                                    android:text="button_1"
+                                    android:layout_marginTop="@dimen/small_margin"/>
+
+                                <Button
+                                    style="@style/Button"
+                                    android:id="@+id/button_question_2"
+                                    android:text="button_2"
+                                    android:layout_marginTop="@dimen/small_margin"/>
+
+                                <Button
+                                    style="@style/Button"
+                                    android:id="@+id/button_got_it"
+                                    android:text="@string/got_it"
+                                    android:layout_marginTop="@dimen/small_margin" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/FrameLayout"
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout"/>
+
+        <ScrollView style="@style/ScrollView">
+
+            <LinearLayout style="@style/BackgroundLayoutDialog">
+
+                <FrameLayout style="@style/FrameLayout">
+
+                    <TimePicker
+                        style="@style/TimePicker"
+                        android:id="@+id/time_picker"/>
+
+                    <include layout="@layout/top_border_layout"/>
+
+                </FrameLayout>
+
+                <LinearLayout style="@style/HorizontalLinearLayout">
+
+                    <ImageView
+                        style="@style/ImageBack"
+                        android:id="@+id/button_back"
+                        android:visibility="visible"
+                        app:srcCompat="@drawable/ic_back" />
+
+                    <Button
+                        style="@style/Button"
+                        android:id="@+id/button_done"
+                        android:text="@string/done"
+                        android:layout_margin="@dimen/margin"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+</FrameLayout>

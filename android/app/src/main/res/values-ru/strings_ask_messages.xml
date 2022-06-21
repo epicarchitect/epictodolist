@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="question_about_need_products">Зачем тут нужны костюмы, оружие и т.д.?</string>
+    <string name="answer_about_need_products">Это просто декорации. Пока что…</string>
+
+    <string name="question_about_getting_features">Как получить новые функции?</string>
+    <string name="answer_about_getting_features">Разблокируй их в своем инвентаре во вкладе \"Функции\"!</string>
+
+    <string name="question_about_need_coins">Для чего тут монеты?</string>
+    <string name="answer_about_need_coins">Монеты нужны, чтобы их тратить! Ты можешь это сделать в своем инвентаре, разблокировав что-нибудь.</string>
+
+    <string name="questions_about_need_crystals">Для чего тут кристаллы?</string>
+    <string name="answer_about_need_crystals">Они так же как и монеты нужны чтобы покупать и разблокировать различные вещи.</string>
+
+    <string name="question_about_where_setting">Где находятся настройки?</string>
+    <string name="answer_about_where_setting">Зайди во вкладку героя и нажми на шестерёнку справа от его имени.</string>
+
+    <string name="question_about_earn_coins">Как заработать монеты?</string>
+    <string name="answer_about_earn_coins">Выполняй свои задания!</string>
+
+    <string name="question_about_earn_crystals">Как заработать кристаллы?</string>
+    <string name="answer_about_earn_crystals">Кристаллы можно получить за новые достижения.</string>
+
+    <string name="question_about_create_task">Как создать задание?</string>
+    <string name="answer_about_create_task">Перейди в первую вкладку и нажми на кнопку с плюсом в правом нижнем углу.</string>
+
+    <string name="question_about_improve_skills">Как улучшать навыки?</string>
+    <string name="answer_about_improve_skills">Выполняй задания, выбирая навык, который хочешь улучшить.</string>
+
+    <string name="question_about_text_size">Как изменить размер текста?</string>
+    <string name="answer_about_text_size">Размер текста можно изменить в настройках.</string>
+
+    <string name="question_about_modify_tasks">Как удалить/отредактировать/выполнить задания?</string>
+    <string name="answer_about_modify_tasks">Сдвинь задание влево или вправо.</string>
+
+    <string name="question_about_modify_skills">Как удалить/отредактировать навыки?</string>
+    <string name="answer_about_modify_skills">Сдвинь навык влево или вправо.</string>
+
+</resources>

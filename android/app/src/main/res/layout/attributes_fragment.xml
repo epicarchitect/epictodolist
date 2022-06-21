@@ -1,0 +1,70 @@
+<LinearLayout style="@style/HorizontalLinearLayout"
+    android:weightSum="2"
+    android:visibility="visible"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_strength" />
+
+            <TextView
+                style="@style/TextView"
+                android:id="@+id/strength"
+                android:text="Сила: 0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_intellect" />
+
+            <TextView
+                style="@style/TextView"
+                android:id="@+id/intellect"
+                android:text="Интеллект: 0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_creation" />
+
+            <TextView
+                style="@style/TextView"
+                android:id="@+id/creation"
+                android:text="Творчество: 0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_health" />
+
+            <TextView
+                style="@style/TextView"
+                android:id="@+id/health"
+                android:text="Здоровье: 0" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout style="@style/FrameLayout"
+        android:layout_weight="1"
+        android:id="@+id/attribute_graph_container"/>
+
+</LinearLayout>

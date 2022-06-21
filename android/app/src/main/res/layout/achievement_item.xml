@@ -1,0 +1,31 @@
+<LinearLayout style="@style/HorizontalLinearLayout"
+    android:id="@+id/main_layout"
+    android:padding="@dimen/margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackground"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        style="@style/Icon"
+        android:id="@+id/icon"
+        app:srcCompat="@drawable/icon_default" />
+
+    <LinearLayout style="@style/LinearLayout">
+
+        <TextView
+            style="@style/ListItemContent"
+            android:id="@+id/title"
+            android:lines="1"/>
+
+        <TextView
+            style="@style/SecondaryTextView"
+            android:id="@+id/description"
+            android:lines="2"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/small_margin"
+            tools:text="description"/>
+
+    </LinearLayout>
+
+</LinearLayout>

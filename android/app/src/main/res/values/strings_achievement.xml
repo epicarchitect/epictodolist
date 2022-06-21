@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="achieved">Achieved</string>
+
+    <string name="the_beginning_of_the_way">The beginning of the way</string>
+    <string name="progressive">Progressive</string>
+    <string name="sportsman">Sportsman</string>
+    <string name="scientist">Scientist</string>
+    <string name="creative_person">Creative person</string>
+    <string name="healthy">Healthy</string>
+    <string name="spender">Spender</string>
+    <string name="banker">Banker</string>
+    <string name="im_not_small_anymore">I\'m not small anymore!</string>
+
+    <string name="complete_one_task">Complete one task</string>
+    <string name="accumulate_500_total_hero_progress">Accumulate 500 total hero progress</string>
+    <string name="accumulate_100_attribute_strength_points">Accumulate 100 strength points</string>
+    <string name="accumulate_100_attribute_intellect_points">Accumulate 100 intellect points</string>
+    <string name="accumulate_100_attribute_creation_points">Accumulate 100 creation points</string>
+    <string name="accumulate_100_attribute_health_points">Accumulate 100 health points.</string>
+    <string name="spend_1000_coins">Spend 1000 coins</string>
+    <string name="accumulate_1000_coins">Accumulate 1000 coins</string>
+    <string name="reach_hero_level_5">Reach hero level 5</string>
+
+</resources>

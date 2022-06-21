@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+  <group>
+    <clip-path android:pathData="M0,0h1000v1000h-1000z M 0,0"/>
+    <path
+        android:name="brow1"
+        android:pathData="M475.52,355.63L463.47,338.16L403.23,326.11L433.35,320.08L475.52,326.11L475.52,355.63L475.52,355.63L475.52,355.63L475.52,355.63Z"
+        android:fillColor="#919191"/>
+    <path
+        android:name="brow2"
+        android:pathData="M523.71,355.63L535.76,338.16L596,326.11L565.88,320.08L523.71,326.11L523.71,355.63L523.71,355.63L523.71,355.63L523.71,355.63Z"
+        android:fillColor="#919191"/>
+    <path
+        android:pathData="M475.52,355.63L463.47,338.16L403.23,326.11L433.35,320.08L475.52,326.11L475.52,355.63L475.52,355.63L475.52,355.63Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.3"/>
+    <path
+        android:pathData="M523.71,355.63L535.76,338.16L596,326.11L565.88,320.08L523.71,326.11L523.71,355.63L523.71,355.63L523.71,355.63Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.3"/>
+  </group>
+</vector>

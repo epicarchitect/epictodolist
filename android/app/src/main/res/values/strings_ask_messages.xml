@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="question_about_need_products">Why do we need costumes, weapons, etc.?</string>
+    <string name="answer_about_need_products">It’s just the scenery. For now…</string>
+
+    <string name="question_about_getting_features">How to get new features?</string>
+    <string name="answer_about_getting_features">Unlock them in your inventory in the contribution "Features"!</string>
+
+    <string name="question_about_need_coins">What is the coin for?</string>
+    <string name="answer_about_need_coins">Coins are needed to spend them! You can do this in your inventory by unlocking something.</string>
+
+    <string name="questions_about_need_crystals">Why are crystals needed?</string>
+    <string name="answer_about_need_crystals">They also need coins to buy and unlock various things.</string>
+
+    <string name="question_about_where_setting">Where are the settings?</string>
+    <string name="answer_about_where_setting">Go to the tab of the hero and click on the gear to the right of his name.</string>
+
+    <string name="question_about_earn_coins">How to earn coins?</string>
+    <string name="answer_about_earn_coins">Do your tasks!</string>
+
+    <string name="question_about_earn_crystals">How to earn crystals?</string>
+    <string name="answer_about_earn_crystals">Crystals can be obtained for new achievements.</string>
+
+    <string name="question_about_create_task">How to create a task?</string>
+    <string name="answer_about_create_task">Go to the first tab and click on the plus button in the lower right corner.</string>
+
+    <string name="question_about_improve_skills">How to improve skills?</string>
+    <string name="answer_about_improve_skills">Perform tasks, choosing a skill that you want to improve.</string>
+
+    <string name="question_about_text_size">How to resize text?</string>
+    <string name="answer_about_text_size">The text size can be changed in the settings.</string>
+
+    <string name="question_about_modify_tasks">How do I delete/edit/complete tasks?</string>
+    <string name="answer_about_modify_tasks">Move the task to the left or right.</string>
+
+    <string name="question_about_modify_skills">How do I delete/edit skills?</string>
+    <string name="answer_about_modify_skills">Move the skill to the left or right.</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="create_notification">Добавить уведомление</string>
+    <string name="task">Задание</string>
+    <string name="skill">Навык</string>
+    <string name="whole_progress">Общий прогресс</string>
+    <string name="count_completed_tasks">Выполнено заданий</string>
+    <string name="title">Название</string>
+    <string name="to_do">Что сделать</string>
+    <string name="done">Готово</string>
+    <string name="autocopy_days">Дни автосоздания</string>
+    <string name="autocopy_time">Время автосоздания</string>
+    <string name="next_in">Следующее в</string>
+    <string name="attribute">Атрибут</string>
+    <string name="got_it">Понятно</string>
+
+</resources>

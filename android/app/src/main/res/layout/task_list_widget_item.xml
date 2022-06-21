@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/HorizontalLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/margin">
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/content"
+        android:textColor="@color/colorPrimaryDarkDefaultTheme"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:text="To do" />
+
+</LinearLayout>

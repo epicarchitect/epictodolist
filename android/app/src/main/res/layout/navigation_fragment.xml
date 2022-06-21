@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FrameLayout"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/small_margin"
+    android:paddingEnd="@dimen/small_margin"
+    android:background="?attr/colorPrimaryDark">
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout"
+        android:id="@+id/buttons_container"
+        android:background="?attr/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_height="50dp"/>
+
+</FrameLayout>

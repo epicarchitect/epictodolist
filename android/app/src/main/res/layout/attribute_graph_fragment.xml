@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/FrameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <kolmachikhin.alexander.epictodolist.ui.graphs.holo.pie.PieGraph
+        android:id="@+id/pie_graph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

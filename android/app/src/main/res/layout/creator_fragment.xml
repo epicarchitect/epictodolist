@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/FrameLayout">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        style="@style/ScrollView"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:gravity="center_horizontal">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:layout_height="45dp"
+                android:text="@string/creator" />
+
+            <FrameLayout
+                android:id="@+id/creator_frame"
+                style="@style/HeroFrameLayout">
+
+                <FrameLayout
+                    android:id="@+id/creator_body_container"
+                    style="@style/FrameLayout" />
+
+                <include layout="@layout/top_border_layout" />
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/button_ask"
+                style="@style/Button"
+                android:layout_marginHorizontal="@dimen/big_margin"
+                android:layout_marginVertical="@dimen/margin"
+                android:text="@string/ask" />
+
+            <TextView
+                style="@style/TextView"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/big_margin"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="@dimen/big_margin"
+                android:gravity="center"
+                android:text="@string/translation_michael_taroni" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_answer"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="50dp"
+        android:alpha="0"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:paddingStart="12dp"
+        android:paddingTop="@dimen/margin"
+        android:paddingEnd="12dp"
+        android:paddingBottom="@dimen/margin"
+        tools:text="answer" />
+
+    <FrameLayout
+        android:id="@+id/questions_layout"
+        style="@style/BackgroundLayout"
+        android:layout_height="0dp"
+        android:alpha="0.8">
+
+        <FrameLayout
+            android:id="@+id/rv_container"
+            style="@style/FrameLayout" />
+
+        <ImageView
+            android:id="@+id/button_hide_questions"
+            style="@style/ImageViewButton"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/margin"
+            app:srcCompat="@drawable/ic_arrow_up" />
+
+    </FrameLayout>
+
+</FrameLayout>

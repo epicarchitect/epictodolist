@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="question_about_need_products">Perché avrei bisogno di armi, vestiti, ecc…?</string>
+    <string name="answer_about_need_products">Sono semplici elementi grafici… per ora.</string>
+
+    <string name="question_about_getting_features">Come posso ottenere nuove funzionalità?</string>
+    <string name="answer_about_getting_features">Puoi sbloccare dal tuo inventario, nella sezione "Funzioni".</string>
+
+    <string name="question_about_need_coins">A cosa servono le monete?</string>
+    <string name="answer_about_need_coins">Le monete sono la valuta con cui puoi comprare oggetti nel tuo inventario.</string>
+
+    <string name="questions_about_need_crystals">A cosa servono i cristalli?</string>
+    <string name="answer_about_need_crystals">Insieme alle monete, servono per sbloccare oggetti nell\'inventario.</string>
+
+    <string name="question_about_where_setting">Dove trovo le impostazioni?</string>
+    <string name="answer_about_where_setting">Vai alla pagina dell\'Eroe, e clicca l\'icona ad ingranaggio a destra del suo nome.</string>
+
+    <string name="question_about_earn_coins">Come posso ottenere monete?</string>
+    <string name="answer_about_earn_coins">Completando le tue missioni.</string>
+
+    <string name="question_about_earn_crystals">Come posso ottenere cristalli?</string>
+    <string name="answer_about_earn_crystals">I cristalli possono essere ottenuti completando i traguardi.</string>
+
+    <string name="question_about_create_task">Come posso creare una missione?</string>
+    <string name="answer_about_create_task">Vai nella prima pagina e premi il simbolo del "Più", nell\'angolo in basso a destra.</string>
+
+    <string name="question_about_improve_skills">Come posso migliorare le mie abilità?</string>
+    <string name="answer_about_improve_skills">Completa le missioni, scegliendo quali abilità andranno ad allenare.</string>
+
+    <string name="question_about_text_size">Come posso ridimensionare il testo?</string>
+    <string name="answer_about_text_size">La dimensione del testo può essere regolata dalle impostazioni.</string>
+
+    <string name="question_about_modify_tasks">Come posso cancellare, modificare o completare le missioni?</string>
+    <string name="answer_about_modify_tasks">Muovi la sua barra verso sinistra o destra.</string>
+
+    <string name="question_about_modify_skills">Come posso cancellare o modificare un\'abilità?</string>
+    <string name="answer_about_modify_skills">Muovi la sua barra verso sinistra o destra.</string>
+
+</resources>

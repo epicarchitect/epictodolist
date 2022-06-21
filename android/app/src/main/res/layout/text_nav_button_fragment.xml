@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/FrameLayout"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/tv"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:background="@drawable/bg_nav"
+        android:textColor="?attr/colorPrimary"
+        android:paddingStart="@dimen/big_margin"
+        android:paddingEnd="@dimen/big_margin"
+        android:gravity="center"
+        tools:text="text" />
+
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/FrameLayout"
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout style="@style/ShadowLayoutDialog"/>
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout"/>
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar"/>
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <include layout="@layout/task_dialog"/>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout"
+                        android:layout_marginTop="@dimen/margin">
+
+                        <ImageView style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            style="@style/TextView"
+                            android:gravity="center"
+
+                            android:layout_marginStart="@dimen/margin"
+                            android:layout_marginEnd="@dimen/margin"
+                            android:text="@string/date_of_completion"/>
+
+                        <ImageView style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            style="@style/SmallIcon"
+                            app:srcCompat="@drawable/ic_done_dark"/>
+
+                        <TextView
+                            style="@style/TextView"
+                            android:id="@+id/completed_date"
+                            android:text="00/00/0000 | 00:00" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="time_spent_here">Tempo speso qui</string>
+    <string name="hours">Ore</string>
+    <string name="minutes">Minuti</string>
+    <string name="earned_coins">Monete guadagnate</string>
+    <string name="used_coins">Monete spese</string>
+    <string name="earned_crystals">Cristalli guadagnati</string>
+    <string name="used_crystals">Cristalli spesi</string>
+
+</resources>

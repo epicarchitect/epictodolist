@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/FrameLayout"
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout"/>
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar"/>
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <LinearLayout
+                        style="@style/HorizontalLinearLayout"
+                        android:gravity="center">
+
+                        <ImageView
+                            style="@style/SurveyPoint"
+                            android:id="@+id/point_0"
+                            app:srcCompat="@drawable/point"/>
+
+                        <ImageView
+                            style="@style/SurveyPoint"
+                            android:id="@+id/point_1"
+                            app:srcCompat="@drawable/point"/>
+
+                        <ImageView
+                            style="@style/SurveyPoint"
+                            android:id="@+id/point_2"
+                            app:srcCompat="@drawable/point"/>
+
+                        <ImageView
+                            style="@style/SurveyPoint"
+                            android:id="@+id/point_3"
+                            app:srcCompat="@drawable/point"/>
+
+                        <ImageView
+                            style="@style/SurveyPoint"
+                            android:id="@+id/point_4"
+                            app:srcCompat="@drawable/point"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/TextView"
+                        android:id="@+id/tv_question"
+                        android:text="Часто ли у вас происходят ошибки?"/>
+
+                    <RadioGroup
+                        android:id="@+id/radio_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            style="@style/CheckBox"
+                            android:id="@+id/radio_0"
+                            android:text="@string/yes"/>
+
+                        <RadioButton
+                            style="@style/CheckBox"
+                            android:id="@+id/radio_1"
+                            android:text="@string/no"/>
+
+                        <RadioButton
+                            style="@style/CheckBox"
+                            android:id="@+id/radio_2"
+                            android:text="@string/yes"/>
+
+                        <RadioButton
+                            style="@style/CheckBox"
+                            android:id="@+id/radio_3"
+                            android:text="@string/no"/>
+
+                        <RadioButton
+                            style="@style/CheckBox"
+                            android:id="@+id/radio_4"
+                            android:text="@string/yes"/>
+
+                    </RadioGroup>
+
+                    <Button
+                        style="@style/Button"
+                        android:id="@+id/button"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="@string/next"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

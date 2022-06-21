@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ABOUT ERRORS -->
+
+    <string name="question_about_errors">Con che frequenza hai avuto problemi con quest’app?</string>
+
+    <string-array name="answers_about_errors">
+        <item>No, mai</item>
+        <item>Raramente</item>
+        <item>Spesso</item>
+    </string-array>
+
+    <!-- ABOUT NEXT -->
+
+    <string name="question_about_next">Cosa andrebbe migliorato?</string>
+
+    <string-array name="answers_about_next">
+        <item>Design</item>
+        <item>Funzionalità</item>
+        <item>Gli oggetti dell\'inventario</item>
+        <item>Il sistema di gamification</item>
+    </string-array>
+
+    <!-- ABOUT DESIGN -->
+
+    <string name="question_about_design">Che voto daresti al design di quest\'app?</string>
+
+    <string-array name="answers_about_design">
+        <item>Noiosa</item>
+        <item>Interessante</item>
+        <item>Brutta</item>
+        <item>Normale</item>
+        <item>Non saprei</item>
+    </string-array>
+
+    <!-- ABOUT NUMBER STARTS -->
+
+    <string name="question_about_number_starts">Quante volte al giorno lanci l\'applicazione?</string>
+
+    <string-array name="answers_about_number_starts">
+        <item>0窶・</item>
+        <item>2窶・</item>
+        <item>5窶・</item>
+        <item>8窶・0</item>
+        <item>Non la spengo mai</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/BackgroundLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:id="@+id/main_layout"
+        android:fitsSystemWindows="true"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/hero_top_bar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <FrameLayout
+            style="@style/FrameLayout"
+            android:id="@+id/nav_container"
+            android:layout_weight="1"/>
+
+        <FrameLayout
+            android:id="@+id/navigation_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <FrameLayout
+        style="@style/FrameLayout"
+        android:id="@+id/dialog_container"/>
+
+    <FrameLayout
+        style="@style/FrameLayout"
+        android:paddingTop="30dp"
+        android:fitsSystemWindows="true"
+        android:id="@+id/message_container"/>
+
+    <FrameLayout
+        style="@style/FrameLayout"
+        android:id="@+id/creator_container"/>
+</FrameLayout>

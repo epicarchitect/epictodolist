@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/FrameLayout"
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout"/>
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar_with_done"/>
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            style="@style/IconLeft"
+                            android:id="@+id/icon"
+                            app:srcCompat="@drawable/icon_default" />
+
+                        <EditText
+                            style="@style/EditText"
+                            android:id="@+id/input_content"
+                            android:layout_marginLeft="@dimen/small_margin"
+                            android:hint="@string/to_do" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <TextView
+                            style="@style/TextView"
+                            android:text="@string/skill" />
+
+                        <Spinner
+                            style="@style/Spinner"
+                            android:id="@+id/spinner_skill"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <TextView
+                            style="@style/TextView"
+                            android:text="@string/difficultly" />
+
+                        <Spinner
+                            style="@style/Spinner"
+                            android:id="@+id/spinner_difficulty" />
+
+                    </LinearLayout>
+
+                    <Button
+                        style="@style/Button"
+                        android:layout_marginTop="@dimen/margin"
+                        android:id="@+id/button_add_notification"
+                        android:text="@string/create_notification"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <FrameLayout
+                style="@style/FrameLayout"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="@dimen/margin"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv_container"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

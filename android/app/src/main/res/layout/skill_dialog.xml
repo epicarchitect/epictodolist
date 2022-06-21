@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/FrameLayout"
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout"/>
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar"/>
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <FrameLayout style="@style/FrameLayout">
+
+                        <ProgressBar
+                            style="@style/ProgressBar"
+                            android:id="@+id/progress_bar"
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            style="@style/SecondaryTextView"
+                            android:id="@+id/progress_of_level"
+                            android:layout_gravity="center"
+                            android:text="0/0" />
+
+                        <TextView
+                            style="@style/Level"
+                            android:id="@+id/level"
+                            android:layout_gravity="center_vertical"/>
+
+                    </FrameLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            style="@style/IconLeft"
+                            android:id="@+id/icon"
+                            app:srcCompat="@drawable/icon_default" />
+
+                        <TextView
+                            style="@style/ListItemContent"
+                            android:id="@+id/skill_title" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            style="@style/TextView"
+                            android:gravity="center"
+
+                            android:layout_marginStart="@dimen/margin"
+                            android:layout_marginEnd="@dimen/margin"
+                            android:text="@string/details"/>
+
+                        <ImageView style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/TextView"
+                        android:id="@+id/tv_attribute"
+                        android:text="Атрибут: Сила" />
+
+                    <TextView
+                        style="@style/TextView"
+                        android:id="@+id/whole_progress"
+                        android:text="Общий прогресс: 0" />
+
+                    <TextView
+                        style="@style/TextView"
+                        android:id="@+id/number_completed_tasks"
+                        android:text="Выполнено заданий: 0" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

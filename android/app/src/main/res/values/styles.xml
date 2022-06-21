@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BackgroundLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="BorderLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/margin</item>
+    </style>
+
+    <style name="TitleTextView" parent="TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:lines">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:text">Title</item>
+    </style>
+
+    <style name="Picker" parent="View">
+        <item name="android:numbersBackgroundColor" tools:targetApi="lollipop">?attr/colorPrimary</item>
+        <item name="android:numbersTextColor" tools:ignore="NewApi">?attr/colorPrimaryDark</item>
+        <item name="android:headerBackground">?attr/colorPrimaryDark</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="DatePicker" parent="Picker">
+    </style>
+
+    <style name="TimePicker" parent="Picker">
+    </style>
+
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:src">@drawable/line</item>
+    </style>
+
+    <style name="Level" parent="TextView">
+        <item name="android:text">1</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_width">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:background">@drawable/frame_default</item>
+    </style>
+
+    <style name="ImageViewButton">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:padding">@dimen/margin</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="ImageBack" parent="ImageViewButton">
+        <item name="android:src">@drawable/ic_back</item>
+    </style>
+
+    <style name="ImageDone" parent="ImageViewButton">
+        <item name="android:src">@drawable/ic_done_dark</item>
+    </style>
+
+    <style name="ListItemContent" parent="TextView">
+        <item name="android:text">content</item>
+        <item name="android:lines">3</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginStart">@dimen/small_margin</item>
+    </style>
+
+    <style name="CommonSpinnerLayout" parent="HorizontalLinearLayout">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingLeft">@dimen/small_margin</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="HeroFrameLayout">
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">43dp</item>
+        <item name="android:layout_marginEnd">43dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="SurveyPoint" parent="ImageView">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_marginStart">@dimen/small_margin</item>
+        <item name="android:layout_marginEnd">@dimen/small_margin</item>
+    </style>
+
+</resources>

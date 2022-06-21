@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="View">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Layout" parent="View">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Text" parent="View">
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="FrameLayout" parent="Layout">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LinearLayout" parent="Layout">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HorizontalLinearLayout" parent="Layout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ScrollView" parent="Layout">
+        <item name="android:scrollbars">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="RecyclerView" parent="ScrollView"/>
+
+    <style name="TextView" parent="Text"/>
+
+    <style name="SecondaryTextView" parent="Text">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ImageView" parent="View"/>
+
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:layout_height">20dp</item>
+        <item name="android:background">@drawable/bg_progress_bar</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+        <item name="android:layout_marginEnd">@dimen/small_margin</item>
+        <item name="android:layout_marginStart">@dimen/small_margin</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="EditText" parent="Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:lines">3</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">?attr/colorPrimaryDark</item>
+        <item name="android:textColorHint">?attr/colorSecondary</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="Button" parent="View">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/border_button</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:paddingStart">@dimen/margin</item>
+        <item name="android:paddingEnd">@dimen/margin</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CheckBox" parent="Text">
+        <item name="android:buttonTint" tools:targetApi="lollipop">?attr/colorPrimaryDark</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>

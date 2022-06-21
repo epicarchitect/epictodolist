@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PieGraph">
+        <attr name="pieInnerCircleRatio" format="integer"/>
+        <attr name="pieSlicePadding" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="colorFrame" format="color"/>
+    <attr name="colorFrameBackground" format="color"/>
+    <attr name="colorSecondary" format="color"/>
+    <attr name="colorPrimaryDarkRipple" format="color"/>
+
+</resources>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MISSIONI ATTIVE -->
+
+    <!-- NAV -->
+
+    <string name="learn_current_tasks_nav_message">Queste sono le tue missioni attive.</string>
+
+    <string-array name="learn_current_tasks_nav_questions">
+        <item>Come posso creare una nuova missione?</item>
+        <item>Come posso completare una missione?</item>
+        <item>Come posso cancellare una missione?</item>
+    </string-array>
+
+    <string-array name="learn_current_tasks_nav_answers">
+        <item>Clicca il "Più" nell\'angolo in basso a destra.</item>
+        <item>Scorri la tua missione verso sinistra e premi il "Tic" verde.</item>
+        <item>Scorri la tua missione verso destra e premi il "Cestino" rosso.</item>
+    </string-array>
+
+    <!-- CREATORE -->
+
+    <string name="learn_current_task_maker_message">Questa è una finestra di creazione di una nuova missione.</string>
+
+    <string-array name="learn_current_task_maker_questions">
+        <item>Dove posso inserire il testo?</item>
+        <item>Come posso aggiungere un\'icona?</item>
+        <item>Come posso impostare le notifiche?</item>
+    </string-array>
+
+    <string-array name="learn_current_task_maker_answers">
+        <item>Nella casella a destra dell\'icona.</item>
+        <item>Non scegli un\'icona, ma un\'abilità; la missione avrà la sua stessa icona, una volta selezionata.</item>
+        <item>Devi prima sbloccare la funzione delle notifiche. Per fare questo, vai nel tuo inventario e sblocca la funzione "Notifiche" che trovi lì.</item>
+    </string-array>
+
+    <!-- DIALOGHI -->
+
+    <string name="learn_current_task_dialog_message">Questa è una finestra con informazioni dettagliate riguardo la missione corrente.</string>
+    <string-array name="learn_current_task_dialog_questions"/>
+    <string-array name="learn_current_task_dialog_answers"/>
+
+    <!-- MISSIONI RICORRENTI -->
+
+    <!-- NAV -->
+
+    <string name="learn_copy_tasks_nav_message"> Qui trovi le missioni ricorrenti.</string>
+
+    <string-array name="learn_copy_tasks_nav_questions">
+        <item>Come creo una nuova missione ricorrente?</item>
+        <item>Come funzionano?</item>
+        <item>Come posso avere informazioni dettagliate su di loro?</item>
+    </string-array>
+
+    <string-array name="learn_copy_tasks_nav_answers">
+        <item>Premi il "Più" nell\'angolo in fondo a destra.</item>
+        <item>La missione si copia da sola a una data e ora prefissati, aggiungendosi poi alla lista.</item>
+        <item>Clicca sopra la missione che vuoi analizzare, e una finestra con informazioni dettagliate verrà mostrata.</item>
+    </string-array>
+
+    <!-- CREATORE -->
+
+    <string name="learn_copy_task_maker_message">Questa è la finestra per creare una nuova missione ricorrente.</string>
+
+    <string-array name="learn_copy_task_maker_questions">
+        <item>Cosa sono i giorni ad autocreazione?</item>
+        <item>Cosa sono le ore ad autocreazione?</item>
+    </string-array>
+
+    <string-array name="learn_copy_task_maker_answers">
+        <item>Sono i giorni in cui le missioni ricorrenti appariranno.</item>
+        <item>Sono le ore in cui le missioni ricorrenti appariranno.</item>
+    </string-array>
+
+    <!-- DIALOGO -->
+
+    <string name="learn_copy_task_dialog_message">Questa è una finestra con informazioni dettagliate sulle missioni ricorrenti.</string>
+    <string-array name="learn_copy_task_dialog_questions" />
+    <string-array name="learn_copy_task_dialog_answers" />
+
+    <!-- MISSIONI COMPLETATE -->
+
+    <!-- NAV -->
+
+    <string name="learn_completed_tasks_nav_message">Qui trovi le missioni ricorrenti.</string>
+    <string-array name="learn_completed_tasks_nav_questions"/>
+    <string-array name="learn_completed_tasks_nav_answers"/>
+
+    <!-- DIALOGO -->
+
+    <string name="learn_completed_task_dialog_message">Questa è una finestra con informazioni dettagliate sulle missioni completate.</string>
+    <string-array name="learn_completed_task_dialog_questions"/>
+    <string-array name="learn_completed_task_dialog_answers"/>
+
+    <!-- ABILITÀ -->
+
+    <!-- NAV -->
+
+    <string name="learn_skills_nav_message">Qui trovi le tue abilità.</string>
+
+    <string-array name="learn_skills_nav_questions">
+        <item>Come posso creare un\'attività?</item>
+        <item>Perchè ho bisogno di abilità?</item>
+        <item>Come posso migliorarle?</item>
+    </string-array>
+
+    <string-array name="learn_skills_nav_answers">
+        <item>Premi il "Più" nell\'angolo in basso a destra.</item>
+        <item>Le abilità servono per valutare i tuoi progressi nel tempo.</item>
+        <item>Completa missioni, scegliendole in base a quale abilità vuoi migliorare.</item>
+    </string-array>
+
+    <!-- CREATORE -->
+
+    <string name="learn_skill_maker_message">Questa è la finestra per creare una nuova abilità.</string>
+
+    <string-array name="learn_skill_maker_questions">
+        <item>Dove posso inserire il testo?</item>
+        <item>Come posso scegliere un\'icona?</item>
+        <item>Cosa sono gli attributi?</item>
+    </string-array>
+
+    <string-array name="learn_skill_maker_answers">
+        <item>Nella casella di fianco all\'icona dell\'abilità.</item>
+        <item>Clicca sulla finestra di fianco al nome e seleziona l\'icona che preferisci.</item>
+        <item>Gli attributi sono le caratteristiche dell\'eroe, che verranno migliorati insieme alle abilità.</item>
+    </string-array>
+
+    <!-- DIALOGO -->
+
+    <string name="learn_skill_dialog_message">Questa è una finestra con informazioni dettagliate sulle abilità.</string>
+    <string-array name="learn_skill_dialog_questions"/>
+    <string-array name="learn_skill_dialog_answers"/>
+
+    <!-- TRAGUARDI -->
+
+    <!-- NAV -->
+
+    <string name="learn_achievements_nav_message">Qui trovi i tuoi traguardi.</string>
+
+    <string-array name="learn_achievement_nav_questions">
+        <item>Come posso avere informazioni dettagliate su un traguardo?</item>
+    </string-array>
+
+    <string-array name="learn_achievement_nav_answers">
+        <item>Cliccaci sopra e avrai tutte le sue informazioni nel dettaglio.</item>
+    </string-array>
+
+    <!-- DIALOG -->
+
+    <string name="learn_achievement_dialog_message">Questa è una finestra con informazioni dettagliate sui traguardi.</string>
+    <string-array name="learn_achievement_dialog_questions"/>
+    <string-array name="learn_achievement_dialog_answers"/>
+
+    <!-- EROE -->
+
+    <!-- NAV -->
+
+    <string name="learn_hero_nav_message">Questo è il tuo eroe.</string>
+
+    <string-array name="learn_hero_nav_questions">
+        <item>Perché mai dovrei averne bisogno?</item>
+        <item>Forza, intelligenza, creazione... cosa sono questi?</item>
+    </string-array>
+
+    <string-array name="learn_hero_nav_answers">
+        <item>L\'eroe riflette te stesso, poiché sei TU l\'eroe! Creando compiti qui, per poi completarli nella vita reale, tu e il tuo eroe crescerete insieme nelle stesse aree e abilità!</item>
+        <item>Questi sono gli attributi. Miglioreranno di pari passo con le tue abilità.</item>
+    </string-array>
+
+    <!-- MODIFICHE DEL CREATORE -->
+
+    <string name="learn_hero_maker_edit_message">Qui puoi cambiare il nome, il sesso e l\'aspetto del tuo eroe.</string>
+
+    <string-array name="learn_hero_maker_edit_questions">
+        <item>Non ti preoccupare, non cambierò il sesso.</item>
+    </string-array>
+
+    <string-array name="learn_hero_maker_edit_answers">
+        <item>Buon per te.</item>
+    </string-array>
+
+    <!-- CREAZIONE DEL CREATORE -->
+
+    <string name="learn_hero_maker_create_message">Benvenuto! Prima volta qui?</string>
+
+    <string-array name="learn_hero_maker_create_questions">
+        <item>Yep, prima volta.</item>
+        <item>Ti sei per caso dimenticato di me, vecchio?</item>
+    </string-array>
+
+    <string-array name="learn_hero_maker_create_answers">
+        <item>Ottimo! Non ti annoierò subito con tutti i dettagli di questa app. Iniziamo inserendo il nome del tuo eroe, il suo sesso e il suo aspetto fisico.</item>
+        <item>Non sono un semplice "vecchio", sono il Creatore! Beh, visto che sai già come muoverti, ti lascerò libero di fare quello che devi.</item>
+    </string-array>
+
+    <!-- INVENTARIO NAV -->
+
+    <string name="learn_inventory_nav_message">Questo è il tuo inventario: qui puoi sbloccare nuove funzioni, vesti, temi, ecc...</string>
+
+    <string-array name="learn_inventory_nav_questions">
+        <item>Dove trovo i vestiti? Voglio una tunica!</item>
+    </string-array>
+
+    <string-array name="learn_inventory_nav_answers">
+        <item>La tunica va prima guadagnata... o, meglio, sbloccata. Apri la sezione "Vestiti" e clicca sopra una di queste per farlo.</item>
+    </string-array>
+
+    <!-- PRODUCT DIALOG -->
+
+    <string name="learn_product_dialog_message">Questa è una finestra con le informazioni su uno sbloccabile.</string>
+
+    <string-array name="learn_product_dialog_questions">
+        <item>Come posso sbloccarli?</item>
+        <item>Una volta sbloccato un oggetto lo potrò tenere per sempre?</item>
+    </string-array>
+
+    <string-array name="learn_product_dialog_answers">
+        <item>Devi acquistare ogni singola parte dell’oggetto per sbloccarlo.</item>
+        <item>Sì.</item>
+    </string-array>
+
+    <!-- CREATOR NAV -->
+
+    <string name="learn_creator_nav_message">Questa è casa mia. Sentiti libero di venirmi a trovare e chiedermi qualunque cosa.</string>
+    <string-array name="learn_creator_nav_questions"/>
+    <string-array name="learn_creator_nav_answers"/>
+
+    <!-- UNLOCK FEATURES -->
+
+    <!-- UNLOCK ACHIEVEMENT MAKER -->
+
+    <!-- UNLOCK ATTRIBUTE GRAPH -->
+
+    <string name="learn_unlock_attribute_graph_message">Complimenti! Hai sbloccato il grafico degli attributi.</string>
+
+    <string-array name="learn_unlock_attribute_graph_questions">
+        <item>Dove posso vederlo?</item>
+        <item>A cosa serve?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_attribute_graph_answers">
+        <item>Lo puoi trovare nella sezione dell\'eroe, di fianco agli attributi.</item>
+        <item>Questo grafico ti mostrerà quali sono i tuoi punti forti, e quali invece sono i tuoi punti deboli.</item>
+    </string-array>
+
+    <!-- UNLOCK NOTIFICATIONS -->
+
+    <string name="learn_unlock_notifications_message">Complimenti! Hai sbloccato le notifiche. Ora puoi usarle con i tuoi compiti attivi.</string>
+
+    <string-array name="learn_unlock_notifications_questions">
+        <item>Come posso attivarle?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_notifications_answers">
+        <item>Nella finestra della missione, clicca su "Aggiungi notifica".</item>
+    </string-array>
+
+    <!-- UNLOCK TASK LIST WIDGET -->
+
+    <string name="learn_unlock_task_list_widget_message">Wow, hai appena sbloccato il widget dei compiti! Ora devi solo andare nella lista dei widget del tuoi telefono, cercarne uno chiamato "Tasks list" e installarlo nella tua home!</string>
+
+    If you want to change the name of the widget too, the translation is "Lista dei compiti"
+
+    <string-array name="learn_unlock_task_list_widget_questions">
+        <item>Cos\'è di preciso?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_task_list_widget_answers">
+        <item>Ti mostrerà i compiti attualmente attivi.</item>
+    </string-array>
+
+    <!-- UNLOCK REPEATABLE TASKS -->
+
+    <string name="learn_unlock_copy_tasks_message">Hai sbloccato i compiti ricorrenti! Questa è una funzione particolarmente utile. Ora puoi andare nella pagine a fianco di quella dei compiti e potrai creare il tuo primo compito ripetibile.</string>
+
+    <string-array name="learn_unlock_copy_tasks_questions">
+        <item>Cos\'è un compito ricorrente?</item>
+        <item>Dove li posso trovare?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_copy_tasks_answers">
+        <item>I compiti ricorrenti sono compiti attivi che vengono ripetuti in giorni e orari scelti da te.</item>
+        <item>Nella seconda pagina nella sezione dei compiti.</item>
+    </string-array>
+
+    <!-- AFTER CREATE HERO -->
+
+    <string name="learn_after_create_hero_message">Fantatisco, hai appena creato il tuo eroe. Hai per caso qualche domanda prima di cominciare?</string>
+
+    <string-array name="learn_after_create_hero_questions">
+        <item>Cos\'è questa applicazione?</item>
+        <item>Perché hai creato quest\' app?</item>
+    </string-array>
+
+    <string-array name="learn_after_create_hero_answers">
+        <item>Questa app ? una lista di cose da fare, ma creata come un videogioco. Qui puoi migliorare il tuo personaggio e le sue abilità eseguendo compiti. Inoltre, grazie alla valuta del gioco che otterrai in questo modo, potrai sbloccare nuove funzioni per l\'app!</item>
+        <item>Ho voluto creare uno strumento che potesse rendere i nostri noiosi compiti quotidiani più interessanti, facendoci sentire come se fossimo dentro un videogioco fantasy.</item>
+    </string-array>
+
+    <!-- CHALLENGES FRAGMENT -->
+
+    <string name="learn_challenges_fragment_message">Qui troverai le tue sfide.</string>
+
+    <string-array name="learn_challenges_fragment_questions">
+        <item>A cosa servono?</item>
+    </string-array>
+
+    <string-array name="learn_challenges_fragment_answers">
+        <item>Se vuoi creare una nuova abitudine, o ti vuoi sbarazzare di una vecchia, queste serviranno a motivarti per metterti in gioco!</item>
+    </string-array>
+
+    <!-- CHALLENGE MAKER -->
+
+    <string name="learn_challenge_maker_message">Questa è la finestra per creare nuove sfide.</string>
+
+    <string-array name="learn_challenge_maker_questions">
+        <item>Come posso scegliere un\'icona?</item>
+    </string-array>
+
+    <string-array name="learn_challenge_maker_answers">
+        <item>Seleziona la finestra di fianco al nome della sfida e seleziona quella che preferisci.</item>
+    </string-array>
+
+</resources>

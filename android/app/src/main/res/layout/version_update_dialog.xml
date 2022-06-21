@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/FrameLayout"
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout"/>
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar"/>
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout
+                    style="@style/InnerLayoutScrollViewDialog"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/TextView"
+                        android:gravity="center"
+                        android:text="@string/new_version_available"/>
+
+                    <Button
+                        style="@style/Button"
+                        android:id="@+id/button_update"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="@string/update" />
+
+                    <Button
+                        style="@style/Button"
+                        android:id="@+id/button_remind"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="@string/remind_me_later"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/FrameLayout">
+
+    <FrameLayout
+        style="@style/FrameLayout"
+        android:id="@+id/rv_container"/>
+
+    <FrameLayout style="@style/FrameLayout"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:id="@+id/unlock_container"/>
+
+    <ImageView
+        style="@style/ImageView"
+        android:id="@+id/button_create"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/big_margin"
+        app:srcCompat="@drawable/ic_create" />
+
+</FrameLayout>

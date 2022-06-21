@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CURRENT TASKS -->
+
+    <!-- NAV -->
+
+    <string name="learn_current_tasks_nav_message">Here are your current tasks.</string>
+
+    <string-array name="learn_current_tasks_nav_questions">
+        <item>How to create a new task?</item>
+        <item>How to complete the task?</item>
+        <item>How to delete a task?</item>
+    </string-array>
+
+    <string-array name="learn_current_tasks_nav_answers">
+        <item>Click on the plus button in the lower right corner.</item>
+        <item>Swipe your currentTask to the left and click on the green button.</item>
+        <item>Swipe your currentTask to the right and click on the red button.</item>
+    </string-array>
+
+    <!-- MAKER -->
+
+    <string name="learn_current_task_maker_message">This is a new task creation window.</string>
+
+    <string-array name="learn_current_task_maker_questions">
+        <item>Where to enter text?</item>
+        <item>How to choose an icon?</item>
+        <item>How to set the notification?</item>
+    </string-array>
+
+    <string-array name="learn_current_task_maker_answers">
+        <item>The text next to the icon of the task.</item>
+        <item>You choose not an icon, but a skill. The task icon will be the same as the selected skill.</item>
+        <item>You need to unlock the "Notifications" function. To do this, go to the inventory in the "Features" section and unlock the "Notifications" features.</item>
+    </string-array>
+
+    <!-- DIALOG -->
+
+    <string name="learn_current_task_dialog_message">This is a window with detailed information about the current task.</string>
+    <string-array name="learn_current_task_dialog_questions"/>
+    <string-array name="learn_current_task_dialog_answers"/>
+
+    <!-- REPEATABLE TASKS -->
+
+    <!-- NAV -->
+
+    <string name="learn_copy_tasks_nav_message">Here are the repeatable tasks.</string>
+
+    <string-array name="learn_copy_tasks_nav_questions">
+        <item>How to create a new repeatable task?</item>
+        <item>How they work?</item>
+        <item>How to see detailed information about it?</item>
+    </string-array>
+
+    <string-array name="learn_copy_tasks_nav_answers">
+        <item>Press the plus button in the bottom right corner.</item>
+        <item>These tasks copy themselves at a certain time and create new current tasks.</item>
+        <item>Click on the task itself and a window with detailed information will open.</item>
+    </string-array>
+
+    <!-- MAKER -->
+
+    <string name="learn_copy_task_maker_message">This is the window for creating a new repeatable task.</string>
+
+    <string-array name="learn_copy_task_maker_questions">
+        <item>What are autocreate days?</item>
+        <item>What are autocreate time?</item>
+    </string-array>
+
+    <string-array name="learn_copy_task_maker_answers">
+        <item>Autocreate days are the days when new tasks will appear.</item>
+        <item>This is the time when the task appears on the selected days.</item>
+    </string-array>
+
+    <!-- DIALOG -->
+
+    <string name="learn_copy_task_dialog_message">This is a window with detailed information about the repeatable task.</string>
+    <string-array name="learn_copy_task_dialog_questions" />
+    <string-array name="learn_copy_task_dialog_answers" />
+
+    <!-- COMPLETED TASKS -->
+
+    <!-- NAV -->
+
+    <string name="learn_completed_tasks_nav_message">Here are the completed tasks.</string>
+    <string-array name="learn_completed_tasks_nav_questions"/>
+    <string-array name="learn_completed_tasks_nav_answers"/>
+
+    <!-- DIALOG -->
+
+    <string name="learn_completed_task_dialog_message">This window contains detailed information about the completed task.</string>
+    <string-array name="learn_completed_task_dialog_questions"/>
+    <string-array name="learn_completed_task_dialog_answers"/>
+
+    <!-- SKILLS -->
+
+    <!-- NAV -->
+
+    <string name="learn_skills_nav_message">Here are your skills.</string>
+
+    <string-array name="learn_skills_nav_questions">
+        <item>How to create a skill?</item>
+        <item>Why do we need skills?</item>
+        <item>How to improve?</item>
+    </string-array>
+
+    <string-array name="learn_skills_nav_answers">
+        <item>Press the plus button in the bottom right corner.</item>
+        <item>Skills are needed to improve them and to evaluate how you develop.</item>
+        <item>Perform tasks, choosing a skill that you want to improve.</item>
+    </string-array>
+
+    <!-- MAKER -->
+
+    <string name="learn_skill_maker_message">This is the window to create a new skill.</string>
+
+    <string-array name="learn_skill_maker_questions">
+        <item>Where to enter text?</item>
+        <item>How to choose an icon?</item>
+        <item>What is an attribute?</item>
+    </string-array>
+
+    <string-array name="learn_skill_maker_answers">
+        <item>The text next to the icon of the skill.</item>
+        <item>Click on the icon next to the name of the skill and choose what you want.</item>
+        <item>This is an attribute of the hero, which will be improved along with the skill.</item>
+    </string-array>
+
+    <!-- DIALOG -->
+
+    <string name="learn_skill_dialog_message">This is a window with detailed information about the skill.</string>
+    <string-array name="learn_skill_dialog_questions"/>
+    <string-array name="learn_skill_dialog_answers"/>
+
+    <!-- ACHIEVEMENTS -->
+
+    <!-- NAV -->
+
+    <string name="learn_achievements_nav_message">Here are the achievements.</string>
+
+    <string-array name="learn_achievement_nav_questions">
+        <item>How to see detailed information about it?</item>
+    </string-array>
+
+    <string-array name="learn_achievement_nav_answers">
+        <item>Click on it and you will see the detailed information of achievement.</item>
+    </string-array>
+
+    <!-- DIALOG -->
+
+    <string name="learn_achievement_dialog_message">This is a window with detailed information about the achievement.</string>
+    <string-array name="learn_achievement_dialog_questions"/>
+    <string-array name="learn_achievement_dialog_answers"/>
+
+    <!-- HERO -->
+
+    <!-- NAV -->
+
+    <string name="learn_hero_nav_message">Here is your hero.</string>
+
+    <string-array name="learn_hero_nav_questions">
+        <item>Why would I need that?</item>
+        <item>Strength, intellect, creation… what is this?</item>
+    </string-array>
+
+    <string-array name="learn_hero_nav_answers">
+        <item>The hero reflects you, you are the hero! If you perform tasks in life that you create here, then you and this hero will grow together in the same areas and skills!</item>
+        <item>These are attributes of the hero. They improve when skills improve.</item>
+    </string-array>
+
+    <!-- MAKER EDIT -->
+
+    <string name="learn_hero_maker_edit_message">Here you can change the name, appearance and… gender of your hero.</string>
+
+    <string-array name="learn_hero_maker_edit_questions">
+        <item>Don\'t worry, I won\'t change the gender.</item>
+    </string-array>
+
+    <string-array name="learn_hero_maker_edit_answers">
+        <item>Good for you.</item>
+    </string-array>
+
+    <!-- MAKER CREATE -->
+
+    <string name="learn_hero_maker_create_message">Greetings you! First time here?</string>
+
+    <string-array name="learn_hero_maker_create_questions">
+        <item>Yeah, it\'s my first time.</item>
+        <item>Have you forgotten me, old man?</item>
+    </string-array>
+
+    <string-array name="learn_hero_maker_create_answers">
+        <item>Great! I\'m not going to immerse you in the details of this place yet. Now you just need to enter your name, choose the appearance and gender.</item>
+        <item>Ahem, I\'m not just any old man… I am the Creator! Well, do what you have to do, since you know everything.</item>
+    </string-array>
+
+    <!-- INVENTORY NAV -->
+
+    <string name="learn_inventory_nav_message">This is your inventory, here your hero can buy functions, costumes, themes, etc.</string>
+
+    <string-array name="learn_inventory_nav_questions">
+        <item>Where are the costumes? I want a suit!</item>
+    </string-array>
+
+    <string-array name="learn_inventory_nav_answers">
+        <item>The suit must be earned… or rather unlock. Open the tab "Costumes" and click on one of them.</item>
+    </string-array>
+
+    <!-- PRODUCT DIALOG -->
+
+    <string name="learn_product_dialog_message">This is a window with product information.</string>
+
+    <string-array name="learn_product_dialog_questions">
+        <item>How to unlock it?</item>
+        <item>After unlocking the product will remain forever?</item>
+    </string-array>
+
+    <string-array name="learn_product_dialog_answers">
+        <item>You need to unlock all parts of the product.</item>
+        <item>Yes.</item>
+    </string-array>
+
+    <!-- CREATOR NAV -->
+
+    <string name="learn_creator_nav_message">This is my house, you can always come here and ask me something.</string>
+    <string-array name="learn_creator_nav_questions"/>
+    <string-array name="learn_creator_nav_answers"/>
+
+    <!-- UNLOCK FEATURES -->
+
+    <!-- UNLOCK ACHIEVEMENT MAKER -->
+
+    <!-- UNLOCK ATTRIBUTE GRAPH -->
+
+    <string name="learn_unlock_attribute_graph_message">Greetings! You unlocked the attribute graph.</string>
+
+    <string-array name="learn_unlock_attribute_graph_questions">
+        <item>Where to see?</item>
+        <item>Why would I need that?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_attribute_graph_answers">
+        <item>It is located in the hero tab next to the attributes.</item>
+        <item>This graph shows your strengths and weaknesses.</item>
+    </string-array>
+
+    <!-- UNLOCK NOTIFICATIONS -->
+
+    <string name="learn_unlock_notifications_message">Greetings! You unlocked the notifications. Now you can assign notifications to your current tasks.</string>
+
+    <string-array name="learn_unlock_notifications_questions">
+        <item>Where to install them?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_notifications_answers">
+        <item>In the new currentTask window, click on "Add notification".</item>
+    </string-array>
+
+    <!-- UNLOCK TASK LIST WIDGET -->
+
+    <string name="learn_unlock_task_list_widget_message">Wow, you unlocked widget tasks! Now you can go to your phone\'s widget list, find a widget called "Task List" and install it on your screen!</string>
+
+    <string-array name="learn_unlock_task_list_widget_questions">
+        <item>What is it?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_task_list_widget_answers">
+        <item>It will display your current tasks.</item>
+    </string-array>
+
+    <!-- UNLOCK REPEATABLE TASKS -->
+
+    <string name="learn_unlock_copy_tasks_message">You have unlocked repeatable tasks! This is a very powerful and useful feature. Now you can go to the second tab after the current tasks and there you can create a new repeatable task.</string>
+
+    <string-array name="learn_unlock_copy_tasks_questions">
+        <item>What is a repeatable task?</item>
+        <item>Where are they?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_copy_tasks_answers">
+        <item>Repeatable tasks are tasks that automatically create a new current task on the same day of the week and the same time as they do.</item>
+        <item>Go to the second tab at the top next to the current tasks.</item>
+    </string-array>
+
+    <!-- AFTER CREATE HERO -->
+
+    <string name="learn_after_create_hero_message">Great, you made a hero! Do you have any questions for me?</string>
+
+    <string-array name="learn_after_create_hero_questions">
+        <item>What kind of application is this?</item>
+        <item>Why are you making this app?</item>
+    </string-array>
+
+    <string-array name="learn_after_create_hero_answers">
+        <item>It is gamified to-do list. Here you can improve your character and skills by completing tasks, as well as receive coins for this and spend them on new functions in the application!</item>
+        <item>I wanted to make a tool that would turn boring everyday tasks into interesting quests like RPG games.</item>
+    </string-array>
+
+    <!-- CHALLENGES FRAGMENT -->
+
+    <string name="learn_challenges_fragment_message">Here are your challenges.</string>
+
+    <string-array name="learn_challenges_fragment_questions">
+        <item>What are they needed for?</item>
+    </string-array>
+
+    <string-array name="learn_challenges_fragment_answers">
+        <item>If you want to create a new habit or get rid of the old one - challenge yourself!</item>
+    </string-array>
+
+    <!-- CHALLENGE MAKER -->
+
+    <string name="learn_challenge_maker_message">This is the window for creating a new challenge.</string>
+
+    <string-array name="learn_challenge_maker_questions">
+        <item>How to choose an icon?</item>
+    </string-array>
+
+    <string-array name="learn_challenge_maker_answers">
+        <item>Click on the icon next to the name of the challenge and choose which one you want.</item>
+    </string-array>
+
+</resources>

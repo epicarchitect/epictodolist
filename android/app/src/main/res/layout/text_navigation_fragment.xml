@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FrameLayout"
+    android:layout_height="wrap_content">
+
+    <HorizontalScrollView
+        style="@style/ScrollView"
+        android:id="@+id/scroll_buttons"
+        android:background="?attr/colorPrimaryDark"
+        android:paddingStart="@dimen/small_margin"
+        android:paddingEnd="@dimen/small_margin">
+
+        <LinearLayout style="@style/HorizontalLinearLayout"
+            android:layout_height="40dp"
+            android:id="@+id/buttons_container"/>
+
+    </HorizontalScrollView>
+
+</FrameLayout>

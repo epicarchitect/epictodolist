@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorDone">#29a90f</color>
+    <color name="colorEdit">#0a66b7</color>
+    <color name="colorCopy">#0AB1B7</color>
+    <color name="colorDelete">#b10d08</color>
+
+    <color name="colorStrength">#b10d08</color>
+    <color name="colorIntellect">#0a66b7</color>
+    <color name="colorCreation">#29a90f</color>
+    <color name="colorHealth">#d27a08</color>
+
+    <color name="colorBody0">#FFDDBB</color>
+    <color name="colorBody1">#F3C994</color>
+    <color name="colorBody2">#DBCFCF</color>
+    <color name="colorBody3">#7E513D</color>
+    <color name="colorBody4">#C29075</color>
+    <color name="colorBody5">#F8C5A9</color>
+
+    <color name="colorHair0">#333333</color>
+    <color name="colorHair1">#726C6C</color>
+    <color name="colorHair2">#A0A0A0</color>
+    <color name="colorHair3">#DDDDDD</color>
+    <color name="colorHair4">#689AA3</color>
+    <color name="colorHair5">#C24141</color>
+    <color name="colorHair6">#CE2E6E</color>
+    <color name="colorHair7">#9650AD</color>
+    <color name="colorHair8">#8D1082</color>
+    <color name="colorHair9">#D8BE3C</color>
+    <color name="colorHair10">#D65B0B</color>
+    <color name="colorHair11">#914D22</color>
+    <color name="colorHair12">#531F17</color>
+    <color name="colorHair13">#6d5643</color>
+
+
+    <!-- TASK LIST KOSTIL -->
+
+    <color name="colorPrimaryDarkDefaultTheme">#6C3E25</color>
+    <color name="colorPrimaryDefaultTheme">#F9D798</color>
+
+    <color name="colorPrimaryDarkIronTheme">#333</color>
+    <color name="colorPrimaryIronTheme">#fff</color>
+
+    <color name="colorPrimaryDarkPeachTheme">#491D00</color>
+    <color name="colorPrimaryPeachTheme">#FFB07A</color>
+
+    <color name="colorPrimaryDarkWoodyTheme">#461F01</color>
+    <color name="colorPrimaryWoodyTheme">#EBD5C1</color>
+
+    <color name="colorPrimaryDarkNightTheme">#011046</color>
+    <color name="colorPrimaryNightTheme">#DAE3F7</color>
+
+    <color name="colorPrimaryDarkPinkTheme">#2E0130</color>
+    <color name="colorPrimaryPinkTheme">#FACEFF</color>
+
+</resources>

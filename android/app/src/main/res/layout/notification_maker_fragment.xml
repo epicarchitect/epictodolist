@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/FrameLayout"
+    android:id="@+id/notification_layout"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout"
+        android:id="@+id/create_notification_layout">
+
+        <ImageView
+            style="@style/SmallIcon"
+            app:srcCompat="@drawable/ic_add"/>
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/create_notification" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout"
+        android:id="@+id/edit_notification_layout"
+        android:visibility="gone">
+
+        <ImageView
+            style="@style/SmallIcon"
+            android:id="@+id/button_delete_notification"
+            app:srcCompat="@drawable/ic_close"/>
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/tv_time"
+            android:text="00:00, 00.00.0000" />
+
+    </LinearLayout>
+
+</FrameLayout>

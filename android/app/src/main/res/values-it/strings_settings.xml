@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="learning_is_forgotten">Tutorial riabilitato</string>
+    <string name="learning_missed">Tutorial disabilitato</string>
+
+    <string name="settings">Impostazioni</string>
+
+    <string name="forget_learning">Ho dimenticato le tue lezioni :(</string>
+    <string name="miss_learning">Non ho altre domande</string>
+
+    <string name="show_title_nav">Mostra il titolo quando passo su una nuova pagina</string>
+    <string name="new_task_notification">Mandami notifiche sui nuovi compiti ricorrenti</string>
+
+</resources>

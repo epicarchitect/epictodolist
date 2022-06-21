@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CURRENT TASKS -->
+
+    <!-- NAV -->
+
+    <string name="learn_current_tasks_nav_message">Здесь находятся твои текущие задания.</string>
+
+    <string-array name="learn_current_tasks_nav_questions">
+        <item>Как создать новое задание?</item>
+        <item>Как выполнить задание?</item>
+        <item>Как удалить задание?</item>
+    </string-array>
+
+    <string-array name="learn_current_tasks_nav_answers">
+        <item>Нажми на кнопку с плюсом в правом нижнем углу.</item>
+        <item>Свайпни свое задание влево и нажми на зеленую кнопку.</item>
+        <item>Свайпни свое задание вправо и нажми на красную кнопку.</item>
+    </string-array>
+
+    <!-- MAKER -->
+
+    <string name="learn_current_task_maker_message">Это окно создания нового задания.</string>
+
+    <string-array name="learn_current_task_maker_questions">
+        <item>Где ввести текст?</item>
+        <item>Как выбрать иконку?</item>
+        <item>Как установить уведомление?</item>
+    </string-array>
+
+    <string-array name="learn_current_task_maker_answers">
+        <item>Текст вводится рядом с иконкой задания.</item>
+        <item>Ты выбираешь не иконку, а навык. Иконка задания будет такая же, как и у выбранного навыка.</item>
+        <item>Нужно разблокировать функцию "Уведомления". Для этого перейди в инвентарь в раздел "Функции" и разблокируй функцию "Уведомления".</item>
+    </string-array>
+
+    <!-- DIALOG -->
+
+    <string name="learn_current_task_dialog_message">Это окно c подробной информацией о текущем задании.</string>
+    <string-array name="learn_current_task_dialog_questions"/>
+    <string-array name="learn_current_task_dialog_answers"/>
+
+    <!-- REPEATABLE TASKS -->
+
+    <!-- NAV -->
+
+    <string name="learn_copy_tasks_nav_message">Здесь находятся повторяющиеся задания.</string>
+
+    <string-array name="learn_copy_tasks_nav_questions">
+        <item>Как создать новое повторяющееся задание?</item>
+        <item>Как они работают?</item>
+        <item>Как посмотреть подробную информацию о нем?</item>
+    </string-array>
+
+    <string-array name="learn_copy_tasks_nav_answers">
+        <item>Нажми на кнопку с плюсом в правом нижнем углу.</item>
+        <item>Эти задания копируют сами себя в определенное время и создают новые текущие задания.</item>
+        <item>Нажми на само задание и откроется окно с подробной информацией.</item>
+    </string-array>
+
+    <!-- MAKER -->
+
+    <string name="learn_copy_task_maker_message">Это окно создания нового повторяющегося задания.</string>
+
+    <string-array name="learn_copy_task_maker_questions">
+        <item>Что такое дни автосоздания?</item>
+        <item>Что такое время автосоздания?</item>
+    </string-array>
+
+    <string-array name="learn_copy_task_maker_answers">
+        <item>Дни автосоздания - это дни, когда будут появляться новые задания.</item>
+        <item>Это время появления новых заданий в выбранные дни.</item>
+    </string-array>
+
+    <!-- DIALOG -->
+
+    <string name="learn_copy_task_dialog_message">Это окно c подробной информацией о повторяющемся задании.</string>
+    <string-array name="learn_copy_task_dialog_questions"/>
+    <string-array name="learn_copy_task_dialog_answers"/>
+
+    <!-- COMPLETED TASKS -->
+
+    <!-- NAV -->
+
+    <string name="learn_completed_tasks_nav_message">Здесь находятся выполненные задания.</string>
+    <string-array name="learn_completed_tasks_nav_questions"/>
+    <string-array name="learn_completed_tasks_nav_answers"/>
+
+    <!-- DIALOG -->
+
+    <string name="learn_completed_task_dialog_message">Это окно c подробной информацией о выполненном задании.</string>
+    <string-array name="learn_completed_task_dialog_questions"/>
+    <string-array name="learn_completed_task_dialog_answers"/>
+
+    <!-- SKILLS -->
+
+    <!-- NAV -->
+
+    <string name="learn_skills_nav_message">Здесь находятся твои навыки.</string>
+
+    <string-array name="learn_skills_nav_questions">
+        <item>Как создать навык?</item>
+        <item>Зачем нужны навыки?</item>
+        <item>Как их улучшать?</item>
+    </string-array>
+
+    <string-array name="learn_skills_nav_answers">
+        <item>Нажми на кнопку с плюсом в правом нижнем углу.</item>
+        <item>Навыки нужны, чтобы их улучшать и чтобы оценить, как ты развиваешься.</item>
+        <item>Выполняй задания, выбирая навык, который хочешь улучшить.</item>
+    </string-array>
+
+    <!-- MAKER -->
+
+    <string name="learn_skill_maker_message">Это окно создания нового навыка.</string>
+
+    <string-array name="learn_skill_maker_questions">
+        <item>Где ввести текст?</item>
+        <item>Как выбрать иконку?</item>
+        <item>Что такое атрибут?</item>
+    </string-array>
+
+    <string-array name="learn_skill_maker_answers">
+        <item>Текст вводится рядом с иконкой навыка.</item>
+        <item>Нажми на иконку рядом с названием навыка и выбери какую захочешь.</item>
+        <item>Это атрибут героя, который будет улучшаться вместе с навыком.</item>
+    </string-array>
+
+    <!-- DIALOG -->
+
+    <string name="learn_skill_dialog_message">Это окно c подробной информацией о навыке.</string>
+    <string-array name="learn_skill_dialog_questions"/>
+    <string-array name="learn_skill_dialog_answers"/>
+
+    <!-- ACHIEVEMENTS -->
+
+    <!-- NAV -->
+
+    <string name="learn_achievements_nav_message">Здесь находятся достижения.</string>
+
+    <string-array name="learn_achievement_nav_questions">
+        <item>Как посмотреть подробную информацию о нем?</item>
+    </string-array>
+
+    <string-array name="learn_achievement_nav_answers">
+        <item>Нажми на достижение и откроется окно с подробной информацией.</item>
+    </string-array>
+
+    <!-- DIALOG -->
+
+    <string name="learn_achievement_dialog_message">Это окно c подробной информацией о достижении.</string>
+    <string-array name="learn_achievement_dialog_questions"/>
+    <string-array name="learn_achievement_dialog_answers"/>
+
+    <!-- HERO -->
+
+    <!-- NAV -->
+
+    <string name="learn_hero_nav_message">Здесь находится твой герой.</string>
+
+    <string-array name="learn_hero_nav_questions">
+        <item>Зачем он мне?</item>
+        <item>Сила, интеллект, творчество… - это что?</item>
+    </string-array>
+
+    <string-array name="learn_hero_nav_answers">
+        <item>Герой отражает тебя, ты и есть этот герой! Если ты в жизни выполняешь задания, которые создаешь здесь, то вы с этим героем будете расти вместе, в одинаковых сферах и навыках!</item>
+        <item>Это атрибуты героя. Они улучшаются тогда, когда улучшаются навыки.</item>
+    </string-array>
+
+    <!-- MAKER EDIT -->
+
+    <string name="learn_hero_maker_edit_message">Здесь ты можешь изменить имя, внешность и… пол своему герою.</string>
+
+    <string-array name="learn_hero_maker_edit_questions">
+        <item>Не волнуйся, пол я менять не буду.</item>
+    </string-array>
+
+    <string-array name="learn_hero_maker_edit_answers">
+        <item>Рад за тебя.</item>
+    </string-array>
+
+    <!-- MAKER CREATE -->
+
+    <string name="learn_hero_maker_create_message">Приветствую тебя! Ты тут первый раз?</string>
+
+    <string-array name="learn_hero_maker_create_questions">
+        <item>Да, я тут первый раз.</item>
+        <item>Ты что меня забыл, старик?</item>
+    </string-array>
+
+    <string-array name="learn_hero_maker_create_answers">
+        <item>Отлично! Я пока не буду тебя погружать в детали этого места. Сейчас тебе нужно просто ввести свое имя, выбрать внешность и пол.</item>
+        <item>Кхм, я тебе не какой-нибудь там старик… Я Создатель! Ладно, делай что надо, раз уж ты все знаешь.</item>
+    </string-array>
+
+    <!-- INVENTORY NAV -->
+
+    <string name="learn_inventory_nav_message">Это твой инвентарь, тут твой герой может покупать функции, костюмы, темы и т.д.</string>
+
+    <string-array name="learn_inventory_nav_questions">
+        <item>А где костюмы? Я хочу костюм!</item>
+    </string-array>
+
+    <string-array name="learn_inventory_nav_answers">
+        <item>Костюм нужно заслужить… а точнее разблокировать. Открой вкладку "Костюмы" и нажми на один из них.</item>
+    </string-array>
+
+    <!-- PRODUCT DIALOG -->
+
+    <string name="learn_product_dialog_message">Это окно с информацией о товаре.</string>
+
+    <string-array name="learn_product_dialog_questions">
+        <item>Как разблокировать его?</item>
+        <item>После разблокировки товар останется навсегда?</item>
+    </string-array>
+
+    <string-array name="learn_product_dialog_answers">
+        <item>Нужно разблокировать все части товара.</item>
+        <item>Да.</item>
+    </string-array>
+
+    <!-- CREATOR NAV -->
+
+    <string name="learn_creator_nav_message">Это мой дом, ты всегда можешь прийти сюда и спросить меня о чем-нибудь.</string>
+    <string-array name="learn_creator_nav_questions"/>
+    <string-array name="learn_creator_nav_answers"/>
+
+    <!-- UNLOCK FEATURES -->
+
+    <!-- UNLOCK ACHIEVEMENT MAKER -->
+
+    <!-- UNLOCK ATTRIBUTE GRAPH -->
+
+    <string name="learn_unlock_attribute_graph_message">Поздравляю! Ты разблокировал график атрибутов.</string>
+
+    <string-array name="learn_unlock_attribute_graph_questions">
+        <item>Где его посмотреть?</item>
+        <item>Зачем он мне?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_attribute_graph_answers">
+        <item>Он находится во вкладке героя рядом с атрибутами.</item>
+        <item>Этот график отображает твои сильные и слабые стороны.</item>
+    </string-array>
+
+    <!-- UNLOCK NOTIFICATIONS -->
+
+    <string name="learn_unlock_notifications_message">Поздравляю! Ты разблокировал уведомления. Теперь ты можешь назначать уведомления на свои текущие задания.</string>
+
+    <string-array name="learn_unlock_notifications_questions">
+        <item>Где их установить?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_notifications_answers">
+        <item>В окне создания нового задания нажми на "Добавить уведомление".</item>
+    </string-array>
+
+    <!-- UNLOCK TASK LIST WIDGET -->
+
+    <string name="learn_unlock_task_list_widget_message">Ого, ты разблокировал виджет заданий! Теперь ты можешь перейти в список виджетов своего телефона, найти виджет с названием "Список заданий" и установить его на свой экран!</string>
+
+    <string-array name="learn_unlock_task_list_widget_questions">
+        <item>Для чего он?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_task_list_widget_answers">
+        <item>Он будет отображать твои текущие задания.</item>
+    </string-array>
+
+    <!-- UNLOCK REPEATABLE TASKS -->
+
+    <string name="learn_unlock_copy_tasks_message">Ты разблокировал повторяющиеся задания! Это очень мощная и полезная функция. Теперь ты можешь перейти во вторую вкладку после текущих заданий и там ты сможешь создать новое повторяющееся задание.</string>
+
+    <string-array name="learn_unlock_copy_tasks_questions">
+        <item>Что такое повторяющееся задание?</item>
+        <item>А где они находятся?</item>
+    </string-array>
+
+    <string-array name="learn_unlock_copy_tasks_answers">
+        <item>Повторяющееся задания - это такие задания, которые в определенный день недели и время автоматически создают новое текущее задание такое же как они сами.</item>
+        <item>Перейди во вторую вкладку сверху рядом с текущими заданиями.</item>
+    </string-array>
+
+    <!-- AFTER CREATE HERO -->
+
+    <string name="learn_after_create_hero_message">Отлично, ты создал героя! У тебя есть какие-нибудь вопросы ко мне?</string>
+
+    <string-array name="learn_after_create_hero_questions">
+        <item>Что это за приложение такое?</item>
+        <item>Почему ты делаешь это приложение?</item>
+    </string-array>
+
+    <string-array name="learn_after_create_hero_answers">
+        <item>Это игрофицированный список дел. Здесь ты можешь улучшать своего героя и навыки, выполняя задания, а также получать за это монеты и тратить их на новые функции в приложении!</item>
+        <item>Я хотел сделать инструмент, который позволил бы превратить скучные повседневные задачи в интересные квесты как в RPG играх.</item>
+    </string-array>
+
+    <!-- CHALLENGES FRAGMENT -->
+
+    <string name="learn_challenges_fragment_message">Здесь находятся твои вызовы.</string>
+
+    <string-array name="learn_challenges_fragment_questions">
+        <item>Зачем они нужны?</item>
+    </string-array>
+
+    <string-array name="learn_challenges_fragment_answers">
+        <item>Если ты хочешь создать новую привычку или избавиться от старой - брось себе вызов!</item>
+    </string-array>
+
+    <!-- CHALLENGE MAKER -->
+
+    <string name="learn_challenge_maker_message">Это окно создания нового вызова.</string>
+
+    <string-array name="learn_challenge_maker_questions">
+        <item>Как выбрать иконку?</item>
+    </string-array>
+
+    <string-array name="learn_challenge_maker_answers">
+        <item>Нажми на иконку рядом с названием вызова и выбери какую захочешь.</item>
+    </string-array>
+
+</resources>

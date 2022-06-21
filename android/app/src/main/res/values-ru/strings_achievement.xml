@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="achieved">Достигнуто</string>
+
+    <string name="the_beginning_of_the_way">Начало пути</string>
+    <string name="progressive">Прогрессивный</string>
+    <string name="sportsman">Спортсмен</string>
+    <string name="scientist">Ученый</string>
+    <string name="creative_person">Творческая личность</string>
+    <string name="healthy">Здоровый</string>
+    <string name="spender">Транжира</string>
+    <string name="banker">Банкир</string>
+    <string name="im_not_small_anymore">Я уже не маленький!</string>
+
+    <string name="complete_one_task">Выполнить одно задание</string>
+    <string name="accumulate_500_total_hero_progress">Накопить 500 общего прогресса героя</string>
+    <string name="accumulate_100_attribute_strength_points">Накопить 100 единиц атрибута сила</string>
+    <string name="accumulate_100_attribute_intellect_points">Накопить 100 единиц атрибута интеллект</string>
+    <string name="accumulate_100_attribute_creation_points">Накопить 100 единиц атрибута творчество</string>
+    <string name="accumulate_100_attribute_health_points">Накопить 100 единиц атрибута здоровье</string>
+    <string name="spend_1000_coins">Потратить 1000 монет</string>
+    <string name="accumulate_1000_coins">Накопить 1000 монет</string>
+    <string name="reach_hero_level_5">Достичь пятого уровня героя</string>
+
+</resources>

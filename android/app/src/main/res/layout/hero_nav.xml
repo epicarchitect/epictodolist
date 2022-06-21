@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/LinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        style="@style/FrameLayout"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigation_container" />
+
+    <FrameLayout
+        style="@style/FrameLayout"
+        android:id="@+id/container" />
+
+</LinearLayout>
+

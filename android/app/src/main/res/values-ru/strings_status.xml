@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="time_spent_here">Время проведенное здесь</string>
+    <string name="hours">ч.</string>
+    <string name="minutes">мин.</string>
+    <string name="earned_coins">Заработано монет</string>
+    <string name="used_coins">Использовано монет</string>
+    <string name="earned_crystals">Заработано кристаллов</string>
+    <string name="used_crystals">Использовано кристаллов</string>
+
+</resources>
