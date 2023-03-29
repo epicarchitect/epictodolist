@@ -12,6 +12,7 @@ import kolmachikhin.alexander.epictodolist.storage.creator.learning.LearnMessage
 import kolmachikhin.alexander.epictodolist.storage.creator.learning.LearnMessageStorage
 import kolmachikhin.alexander.epictodolist.ui.Dialog
 import kolmachikhin.alexander.epictodolist.ui.MainActivity
+import kolmachikhin.alexander.epictodolist.ui.MainActivity.Companion.ui
 import kolmachikhin.alexander.epictodolist.ui.animations.Animations
 import kolmachikhin.alexander.epictodolist.ui.animations.NavigationAnimations
 import kolmachikhin.alexander.epictodolist.ui.creator.SpeechMaster.OnEndListener
@@ -60,7 +61,7 @@ open class CreatorLearnDialog : Dialog<LearnMessage> {
         set(buttonQuestion1) { setTvMessage(model!!.getAnswer(1)) }
         set(buttonQuestion2) { setTvMessage(model!!.getAnswer(2)) }
         creatorFrame.startAnimation(NavigationAnimations.slideToUp)
-        tvTitle?.text = MainActivity.ui!!.getString(R.string.creator)
+        tvTitle?.text = ui!!.getString(R.string.creator)
         setTvMessage(model!!.message)
         setButtonsQuestion()
     }
@@ -71,7 +72,7 @@ open class CreatorLearnDialog : Dialog<LearnMessage> {
 
     fun setTvMessage(text: String?, listener: OnEndListener?) {
         speechMaster!!.start(text!!, listener)
-        MainActivity.ui!!.hideKeyboard()
+        ui!!.hideKeyboard()
     }
 
     private fun setButtonsQuestion() {
@@ -87,7 +88,7 @@ open class CreatorLearnDialog : Dialog<LearnMessage> {
     override fun openDialog() {
         replace()
         Animations.showView(mainLayout, null)
-        MainActivity.ui!!.hideKeyboard()
+        ui!!.hideKeyboard()
     }
 
     override fun closeDialog() {
@@ -97,7 +98,16 @@ open class CreatorLearnDialog : Dialog<LearnMessage> {
         super.closeDialog()
         MainActivity.core!!.creatorLogic.learn(model!!.id)
         listener?.onDone()
+
+        if (isShouldRequestPostNotifications()) {
+            MainActivity.requestPostNotificationsPermission()
+        }
     }
+
+    fun isShouldRequestPostNotifications() =
+        model!!.id == LearnMessageStorage.UNLOCK_NOTIFICATION_FEATURE
+                || model!!.id == LearnMessageStorage.UNLOCK_REPEATABLE_TASKS_FEATURE
+                || model!!.id == LearnMessageStorage.CHALLENGE_MAKER
 
     fun interface OnDoneListener {
         fun onDone()

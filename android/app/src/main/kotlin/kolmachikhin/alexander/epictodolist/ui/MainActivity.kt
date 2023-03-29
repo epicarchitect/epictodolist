@@ -1,7 +1,9 @@
 package kolmachikhin.alexander.epictodolist.ui
 
+import android.Manifest
 import android.annotation.SuppressLint
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.widget.FrameLayout
 import androidx.activity.result.ActivityResultCallback
@@ -18,6 +20,7 @@ import kolmachikhin.alexander.epictodolist.ui.hero.HeroNav
 import kolmachikhin.alexander.epictodolist.ui.hero.HeroTopBarFragment
 import kolmachikhin.alexander.epictodolist.ui.hero.maker.HeroMakerDialog
 import kolmachikhin.alexander.epictodolist.ui.loading.LoadingFragment
+import kolmachikhin.alexander.epictodolist.ui.messages.MessageFragment
 import kolmachikhin.alexander.epictodolist.ui.products.ProductDialog
 
 @SuppressLint("StaticFieldLeak")
@@ -25,13 +28,15 @@ class MainActivity : AppCompatActivity() {
 
     private var loadingFragment: LoadingFragment? = null
 
-    private val requestPermissionsLauncherCallbacks = ArrayList<ActivityResultCallback<Map<String, Boolean>>>()
-    private val requestPermissionsLauncher = registerForActivityResult(RequestMultiplePermissions()) { isGrantedMap ->
-        for (callback in requestPermissionsLauncherCallbacks) {
-            callback.onActivityResult(isGrantedMap)
+    private val requestPermissionsLauncherCallbacks =
+        ArrayList<ActivityResultCallback<Map<String, Boolean>>>()
+    private val requestPermissionsLauncher =
+        registerForActivityResult(RequestMultiplePermissions()) { isGrantedMap ->
+            for (callback in requestPermissionsLauncherCallbacks) {
+                callback.onActivityResult(isGrantedMap)
+            }
+            requestPermissionsLauncherCallbacks.clear()
         }
-        requestPermissionsLauncherCallbacks.clear()
-    }
 
     private val getContentActivityLauncherCallbacks = ArrayList<ActivityResultCallback<Uri?>>()
     private val getContentActivityLauncher = registerForActivityResult(GetContent()) { uri ->
@@ -41,7 +46,10 @@ class MainActivity : AppCompatActivity() {
         getContentActivityLauncherCallbacks.clear()
     }
 
-    fun requestPermissions(permissions: Array<String>, callback: ActivityResultCallback<Map<String, Boolean>>) {
+    fun requestPermissions(
+        permissions: Array<String>,
+        callback: ActivityResultCallback<Map<String, Boolean>>
+    ) {
         requestPermissionsLauncherCallbacks.add(callback)
         requestPermissionsLauncher.launch(permissions)
     }
@@ -86,6 +94,10 @@ class MainActivity : AppCompatActivity() {
             core!!.taskListWidgetLogic.update()
             core!!.restartLogic.checkAll()
             core!!.statusLogic.startTimeUsing()
+
+            if (isPostNotificationsShouldBeRequested()) {
+                requestPostNotificationsPermission()
+            }
         }
     }
 
@@ -133,5 +145,22 @@ class MainActivity : AppCompatActivity() {
         var dialogContainer: FrameLayout? = null
         var messageContainer: FrameLayout? = null
         var creatorContainer: FrameLayout? = null
+
+        fun isPostNotificationsShouldBeRequested(): Boolean {
+            val productsLogic = core!!.productsLogic
+            return productsLogic.isNotificationsUnlocked
+                    || productsLogic.isChallengesUnlocked
+                    || productsLogic.isRepeatableTasksUnlocked
+        }
+
+        fun requestPostNotificationsPermission() {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                activity!!.requestPermissions(
+                    arrayOf(Manifest.permission.POST_NOTIFICATIONS)
+                ) {
+
+                }
+            }
+        }
     }
 }

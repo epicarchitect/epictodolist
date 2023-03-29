@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    compileSdk = 32
+    compileSdk = 33
 
     signingConfigs {
         create("release") {
@@ -26,7 +26,7 @@ android {
     defaultConfig {
         applicationId = "kolmachikhin.alexander.epicto_dolist"
         minSdk = 26
-        targetSdk = 32
+        targetSdk = 33
         versionCode = 82
         versionName = "2.0.4"
     }
