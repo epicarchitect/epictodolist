@@ -14,7 +14,7 @@ class ChallengeModel : Model {
     var iconId = -1
     var isActive = false
     var currentDay = 0
-    var needDays = 5
+    var needDays = 0
     var countFails = 0
     var countCompletes = 0
 
