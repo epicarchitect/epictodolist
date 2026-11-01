@@ -1,0 +1,56 @@
+kolmachikhin.alexander.epictodolist.database.Model -> m51:
+    int id -> a
+kolmachikhin.alexander.epictodolist.database.challenges.ChallengeModel -> fl:
+    java.lang.String title -> b
+    java.util.ArrayList tasks -> c
+    int iconId -> d
+    boolean isActive -> e
+    int currentDay -> f
+    int needDays -> g
+    int countFails -> h
+    int countCompletes -> i
+kolmachikhin.alexander.epictodolist.database.challenges.ChallengeTaskModel -> gl:
+    kolmachikhin.alexander.epictodolist.database.tasks.current.CurrentTaskModel currentTask -> b
+    boolean isCompleted -> c
+kolmachikhin.alexander.epictodolist.database.creator.CreatorModel -> oy:
+    java.util.ArrayList learnList -> b
+kolmachikhin.alexander.epictodolist.database.hero.HeroModel -> im0:
+    java.lang.String name -> c
+    int gender -> d
+    int coins -> e
+    int crystals -> f
+    int strength -> g
+    int intellect -> h
+    int creation -> i
+    int health -> j
+    int location -> k
+    int backWeapon -> l
+    int ears -> m
+    int body -> n
+    int extras -> o
+    int beard -> p
+    int eyes -> q
+    int brows -> r
+    int hair -> s
+    int colorBody -> t
+    int colorHair -> u
+kolmachikhin.alexander.epictodolist.database.settings.SettingsModel -> yu1:
+    boolean showTitleNav -> b
+    boolean showNewTaskNotification -> c
+    java.lang.String lang -> d
+    boolean showHeaddress -> e
+kolmachikhin.alexander.epictodolist.database.status.StatusModel -> a02:
+    int idCounter -> b
+    int wastedCoins -> c
+    int wastedCrystals -> d
+    int earnedCoins -> e
+    int earnedCrystals -> f
+    long timeInApp -> g
+kolmachikhin.alexander.epictodolist.database.tasks.TaskModel -> y32:
+    java.lang.String content -> b
+    int difficulty -> c
+    int skillId -> d
+kolmachikhin.alexander.epictodolist.database.tasks.current.CurrentTaskModel -> bz:
+    java.util.ArrayList notificationIds -> e
+kolmachikhin.alexander.epictodolist.util.progress.ImprovableModel -> op0:
+    int progress -> b

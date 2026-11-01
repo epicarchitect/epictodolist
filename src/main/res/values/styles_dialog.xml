@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainLayoutDialog" parent="FrameLayout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dialog_margin</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ShadowLayoutDialog" parent="FrameLayout">
+        <item name="android:alpha">0.5</item>
+        <item name="android:background">#000</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="BackgroundLayoutDialog" parent="LinearLayout">
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="InnerLayoutScrollViewDialog" parent="LinearLayout">
+        <item name="android:paddingRight">@dimen/big_margin</item>
+        <item name="android:paddingBottom">@dimen/margin</item>
+        <item name="android:paddingLeft">@dimen/big_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

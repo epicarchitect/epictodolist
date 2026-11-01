@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="creator">Creator</string>
+    <string name="inventory">Inventory</string>
+    <string name="hero">Hero</string>
+
+    <string name="skills">Skills</string>
+    <string name="achievements">Achievements</string>
+
+    <string name="current_tasks">Current tasks</string>
+    <string name="copy_tasks">Repeatable tasks</string>
+    <string name="completed_tasks">Completed tasks</string>
+
+</resources>

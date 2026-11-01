@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/navigation_container"
+        style="@style/FrameLayout"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        style="@style/FrameLayout" />
+
+</LinearLayout>

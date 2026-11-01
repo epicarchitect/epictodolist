@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout" />
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar" />
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout
+                    style="@style/InnerLayoutScrollViewDialog"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_message"
+                        style="@style/TextView"
+                        android:gravity="center"
+                        android:lineSpacingExtra="2dp"
+                        android:text="@string/are_you_sure_you_want_to_do_this" />
+
+                    <LinearLayout
+                        style="@style/HorizontalLinearLayout"
+                        android:layout_marginTop="@dimen/margin">
+
+                        <Button
+                            android:id="@+id/button_no"
+                            style="@style/Button"
+                            android:layout_marginStart="@dimen/small_margin"
+                            android:layout_marginEnd="@dimen/small_margin"
+                            android:layout_weight="1"
+                            android:text="@string/no" />
+
+                        <Button
+                            android:id="@+id/button_yes"
+                            style="@style/Button"
+                            android:layout_marginStart="@dimen/small_margin"
+                            android:layout_marginEnd="@dimen/small_margin"
+                            android:layout_weight="1"
+                            android:text="@string/yes" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

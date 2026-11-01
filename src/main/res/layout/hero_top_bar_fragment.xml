@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/BackgroundLayout"
+    android:layout_height="44dp"
+    android:padding="@dimen/small_margin">
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            style="@style/FrameLayout"
+            android:layout_weight="1">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@style/ProgressBar"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/progress_of_level"
+                style="@style/SecondaryTextView"
+                android:layout_gravity="center"
+                android:text="0/0" />
+
+            <TextView
+                android:id="@+id/level"
+                style="@style/Level"
+                android:layout_gravity="center_vertical" />
+
+        </FrameLayout>
+
+        <ImageView
+            style="@style/SmallIcon"
+            android:layout_marginLeft="@dimen/small_margin"
+            app:srcCompat="@drawable/ic_coin" />
+
+        <TextView
+            android:id="@+id/coins"
+            style="@style/TextView"
+            android:text="0" />
+
+
+        <ImageView
+            style="@style/SmallIcon"
+            app:srcCompat="@drawable/ic_crystal" />
+
+        <TextView
+            android:id="@+id/crystals"
+            style="@style/TextView"
+            android:layout_marginEnd="@dimen/small_margin"
+            android:text="0" />
+
+        <ImageView
+            android:id="@+id/button_add_crystals"
+            style="@style/SmallIcon"
+            app:srcCompat="@drawable/ic_play" />
+
+    </LinearLayout>
+
+</FrameLayout>

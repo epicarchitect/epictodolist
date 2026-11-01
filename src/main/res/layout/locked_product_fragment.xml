@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout"
+    android:layout_gravity="center">
+
+    <LinearLayout style="@style/LinearLayout">
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_lock" />
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/TextView"
+                android:text="text" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_unlock"
+            style="@style/Button"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/unlock" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

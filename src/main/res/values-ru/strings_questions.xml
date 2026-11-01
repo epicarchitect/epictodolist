@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ABOUT ERRORS -->
+
+    <string name="question_about_errors">Как часто в приложении происходят ошибки?</string>
+
+    <string-array name="answers_about_errors">
+        <item>Никогда</item>
+        <item>Редко</item>
+        <item>Часто</item>
+    </string-array>
+
+    <!-- ABOUT NEXT -->
+
+    <string name="question_about_next">Что стоит улучшить первым?</string>
+
+    <string-array name="answers_about_next">
+        <item>Дизайн</item>
+        <item>Функциональность</item>
+        <item>Предметы в инвентаре</item>
+        <item>Логику игрофикации</item>
+    </string-array>
+
+    <!-- ABOUT DESIGN -->
+
+    <string name="question_about_design">Как бы вы оценили дизайн приложения?</string>
+
+    <string-array name="answers_about_design">
+        <item>Скучный</item>
+        <item>Яркий</item>
+        <item>Уродливый</item>
+        <item>Обычный</item>
+        <item>Мне все равно</item>
+    </string-array>
+
+    <!-- ABOUT NUMBER STARTS -->
+
+    <string name="question_about_number_starts">Сколько раз в день вы запускаете приложение?</string>
+
+    <string-array name="answers_about_number_starts">
+        <item>0–1</item>
+        <item>2–4</item>
+        <item>5–7</item>
+        <item>8–10</item>
+        <item>Я НЕ ВЫХОЖУ ИЗ НЕГО</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout" />
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar" />
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout
+                    style="@style/InnerLayoutScrollViewDialog"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button_spend_coins"
+                        style="@style/Button"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="@string/use_200_coins" />
+
+                    <TextView
+                        android:id="@+id/tv_or"
+                        style="@style/TextView"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="@string/or" />
+
+                    <Button
+                        android:id="@+id/button_watch_video"
+                        style="@style/Button"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="@string/watch_video" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

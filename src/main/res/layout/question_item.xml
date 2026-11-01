@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:padding="@dimen/margin">
+
+    <TextView
+        android:id="@+id/question"
+        style="@style/TextView"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:text="" />
+</FrameLayout>

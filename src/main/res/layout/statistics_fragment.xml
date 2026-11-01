@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout">
+
+    <TextView
+        android:id="@+id/status"
+        style="@style/TextView"
+        android:layout_marginStart="@dimen/small_margin"
+        android:text="Status" />
+
+</LinearLayout>

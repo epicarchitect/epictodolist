@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout" />
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar_with_done" />
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            android:id="@+id/icon"
+                            style="@style/IconLeft"
+                            app:srcCompat="@drawable/icon_default" />
+
+                        <EditText
+                            android:id="@+id/input_content"
+                            style="@style/EditText"
+                            android:layout_marginStart="@dimen/small_margin"
+                            android:hint="@string/to_do" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <TextView
+                            style="@style/TextView"
+                            android:text="@string/skill" />
+
+                        <Spinner
+                            android:id="@+id/spinner_skill"
+                            style="@style/Spinner" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <TextView
+                            style="@style/TextView"
+                            android:text="@string/difficultly" />
+
+                        <Spinner
+                            android:id="@+id/spinner_difficulty"
+                            style="@style/Spinner" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/TextView"
+                        android:text="@string/autocopy_days" />
+
+                    <CheckBox
+                        android:id="@+id/check_monday"
+                        style="@style/CheckBox"
+                        android:text="@string/monday" />
+
+                    <CheckBox
+                        android:id="@+id/check_tuesday"
+                        style="@style/CheckBox"
+                        android:text="@string/tuesday" />
+
+                    <CheckBox
+                        android:id="@+id/check_wednesday"
+                        style="@style/CheckBox"
+                        android:text="@string/wednesday" />
+
+                    <CheckBox
+                        android:id="@+id/check_thursday"
+                        style="@style/CheckBox"
+                        android:text="@string/thursday" />
+
+                    <CheckBox
+                        android:id="@+id/check_friday"
+                        style="@style/CheckBox"
+                        android:text="@string/friday" />
+
+                    <CheckBox
+                        android:id="@+id/check_saturday"
+                        style="@style/CheckBox"
+                        android:text="@string/saturday" />
+
+                    <CheckBox
+                        android:id="@+id/check_sunday"
+                        style="@style/CheckBox"
+                        android:text="@string/sunday" />
+
+                    <LinearLayout
+                        android:id="@+id/time_creation_layout"
+                        style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            style="@style/SmallIcon"
+                            app:srcCompat="@drawable/ic_edit_dark" />
+
+                        <TextView
+                            android:id="@+id/tv_time"
+                            style="@style/TextView"
+                            android:text="Время создания: 00:00" />
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/check_notCreateIfExists"
+                        style="@style/CheckBox"
+                        android:text="@string/repeatableTasks_doNotCreateIfExists" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout" />
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar" />
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <FrameLayout style="@style/FrameLayout">
+
+                        <ProgressBar
+                            android:id="@+id/progress_bar"
+                            style="@style/ProgressBar"
+                            android:progress="100" />
+
+                        <TextView
+                            android:id="@+id/progress_count"
+                            style="@style/SecondaryTextView"
+                            android:layout_gravity="center"
+                            android:text="0/0" />
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        style="@style/HorizontalLinearLayout"
+                        android:layout_marginTop="@dimen/small_margin">
+
+                        <ImageView
+                            android:id="@+id/icon"
+                            style="@style/IconLeft"
+                            app:srcCompat="@drawable/icon_default" />
+
+                        <TextView
+                            android:id="@+id/content"
+                            style="@style/TextView"
+                            android:layout_marginLeft="@dimen/small_margin"
+                            android:text="Название" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_marginStart="@dimen/margin"
+                            android:layout_marginEnd="@dimen/margin"
+                            android:gravity="center"
+                            android:text="@string/price_per_piece" />
+
+                        <ImageView
+                            style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/LinearLayout"
+                        android:layout_marginBottom="@dimen/small_margin">
+
+                        <LinearLayout style="@style/HorizontalLinearLayout">
+
+                            <ImageView
+                                style="@style/SmallIcon"
+                                app:srcCompat="@drawable/ic_coin" />
+
+                            <TextView
+                                android:id="@+id/coins"
+                                style="@style/TextView"
+                                android:text="0" />
+
+                            <ImageView
+                                style="@style/SmallIcon"
+                                app:srcCompat="@drawable/ic_crystal" />
+
+                            <TextView
+                                android:id="@+id/crystals"
+                                style="@style/TextView"
+                                android:text="0" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/button_unlock"
+                        style="@style/Button"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="@string/unlock_part" />
+
+                    <Button
+                        android:id="@+id/button_activate"
+                        style="@style/Button"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="@string/activate" />
+
+                    <Button
+                        android:id="@+id/button_try_on"
+                        style="@style/Button"
+                        android:layout_marginTop="@dimen/margin"
+                        android:text="@string/try_on" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

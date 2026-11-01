@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="false"
+        android:theme="@style/DefaultTheme">
+
+        <meta-data
+            android:name="com.yandex.mobile.ads.AUTOMATIC_SDK_INITIALIZATION"
+            android:value="false" />
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Launcher"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".logic.challenges.ChallengeChecker" />
+
+        <receiver android:name=".logic.tasks.repeatable.RepeatableTasksScheduler" />
+
+        <receiver android:name=".logic.notifications.NotificationSender" />
+
+        <receiver
+            android:name=".logic.restarting.RestartReceiver"
+            android:directBootAware="true"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.REBOOT" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".appwidget.tasks.TaskListWidget"
+            android:banner="@mipmap/ic_launcher"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:logo="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/task_list_widget_metadata" />
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="kolmachikhin.alexander.epictodolist.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+    </application>
+</manifest>

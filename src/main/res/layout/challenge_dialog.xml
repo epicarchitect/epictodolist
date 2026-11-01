@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout" />
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar" />
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <FrameLayout style="@style/FrameLayout">
+
+                        <ProgressBar
+                            android:id="@+id/progress_bar"
+                            style="@style/ProgressBar"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/progress_of_level"
+                            style="@style/SecondaryTextView"
+                            android:layout_gravity="center"
+                            android:text="0/0" />
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        style="@style/HorizontalLinearLayout"
+                        android:layout_marginTop="@dimen/small_margin">
+
+                        <ImageView
+                            android:id="@+id/icon"
+                            style="@style/IconLeft"
+                            app:srcCompat="@drawable/icon_default" />
+
+                        <TextView
+                            android:id="@+id/skill_title"
+                            style="@style/ListItemContent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_marginStart="@dimen/margin"
+                            android:layout_marginEnd="@dimen/margin"
+                            android:gravity="center"
+                            android:text="@string/tasks" />
+
+                        <ImageView
+                            style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_tasks"
+                        style="@style/TextView"
+                        android:text="tasks" />
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_marginStart="@dimen/margin"
+                            android:layout_marginEnd="@dimen/margin"
+                            android:gravity="center"
+                            android:text="@string/details" />
+
+                        <ImageView
+                            style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_status"
+                        style="@style/TextView"
+                        android:text="status" />
+
+                    <TextView
+                        android:id="@+id/tv_count_completes"
+                        style="@style/TextView"
+                        android:text="count completes" />
+
+                    <TextView
+                        android:id="@+id/tv_count_fails"
+                        style="@style/TextView"
+                        android:text="count fails" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

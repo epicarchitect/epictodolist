@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    style="@style/BackgroundLayout"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_bar_with_done" />
+
+    <ScrollView style="@style/ScrollView">
+
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:padding="@dimen/margin">
+
+            <CheckBox
+                android:id="@+id/check_prompt_nav"
+                style="@style/CheckBox"
+                android:text="@string/show_title_nav" />
+
+            <CheckBox
+                android:id="@+id/check_new_task_notification"
+                style="@style/CheckBox"
+                android:layout_marginTop="@dimen/small_margin"
+                android:text="@string/new_task_notification" />
+
+            <CheckBox
+                android:id="@+id/check_analytics"
+                style="@style/CheckBox"
+                android:layout_marginTop="@dimen/small_margin"
+                android:text="@string/allow_analytics" />
+
+            <CheckBox
+                android:id="@+id/check_personalized_ads"
+                style="@style/CheckBox"
+                android:layout_marginTop="@dimen/small_margin"
+                android:text="@string/allow_personalized_ads" />
+
+            <TextView
+                style="@style/TitleTextView"
+                android:layout_marginTop="@dimen/big_margin"
+                android:text="@string/font_size" />
+
+            <LinearLayout
+                style="@style/HorizontalLinearLayout"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <SeekBar
+                    android:id="@+id/font_bar"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:max="3" />
+
+                <TextView
+                    android:id="@+id/tv_font_example"
+                    style="@style/TextView"
+                    android:text="@string/example" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_forget_learned"
+                style="@style/Button"
+                android:layout_marginTop="@dimen/margin"
+                android:text="@string/forget_learning" />
+
+            <Button
+                android:id="@+id/button_skip_learned"
+                style="@style/Button"
+                android:layout_marginTop="@dimen/small_margin"
+                android:text="@string/miss_learning" />
+
+            <Button
+                android:id="@+id/button_export_data"
+                style="@style/Button"
+                android:layout_marginTop="@dimen/small_margin"
+                android:text="@string/export_data" />
+
+            <Button
+                android:id="@+id/button_import_data"
+                style="@style/Button"
+                android:layout_marginTop="@dimen/small_margin"
+                android:text="@string/import_data" />
+
+            <Button
+                android:id="@+id/button_privacy_policy_settings"
+                style="@style/Button"
+                android:layout_marginTop="@dimen/small_margin"
+                android:text="@string/privacy_policy" />
+
+            <Button
+                android:id="@+id/button_remove_hero"
+                style="@style/Button"
+                android:layout_marginTop="@dimen/small_margin"
+                android:text="@string/remove_hero" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

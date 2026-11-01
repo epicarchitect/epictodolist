@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout" />
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar" />
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <TextView
+                        android:id="@+id/tv_give_coffee"
+                        style="@style/TextView"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/give_coffee_to_the_creator_and_get" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_crystals"
+                        style="@style/HorizontalLinearLayout"
+                        android:layout_margin="@dimen/margin"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            app:srcCompat="@drawable/ic_crystal" />
+
+                        <TextView
+                            style="@style/TextView"
+                            android:text="@string/_100_crystals" />
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/checkbox_without_gift"
+                        style="@style/CheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin"
+                        android:text="@string/i_don_t_want_to_get_100_crystals_i_want_to_play_fair" />
+
+                    <Button
+                        android:id="@+id/button_buy"
+                        style="@style/Button"
+                        android:layout_marginTop="@dimen/margin"
+                        android:layout_marginBottom="@dimen/margin"
+                        android:text="@string/i_want_to_help_the_creator" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/HorizontalLinearLayout"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        style="@style/SmallIcon"
+        app:srcCompat="@drawable/ic_notification" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        style="@style/TextView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        tools:text="00:00, 00.00.0000" />
+
+    <ImageView
+        android:id="@+id/button_delete"
+        style="@style/SmallIcon"
+        app:srcCompat="@drawable/ic_close" />
+
+</LinearLayout>

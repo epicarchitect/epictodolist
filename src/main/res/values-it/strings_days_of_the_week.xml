@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="monday">Lunedì</string>
+    <string name="tuesday">Martedì</string>
+    <string name="wednesday">Mercoledì</string>
+    <string name="thursday">Giovedì</string>
+    <string name="friday">Venerdì</string>
+    <string name="saturday">Sabato</string>
+    <string name="sunday">Domenica</string>
+
+</resources>

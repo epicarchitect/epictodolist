@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="creator">Создатель</string>
+    <string name="inventory">Инвентарь</string>
+    <string name="hero">Герой</string>
+
+    <string name="skills">Навыки</string>
+    <string name="achievements">Достижения</string>
+
+    <string name="current_tasks">Текущие задания</string>
+    <string name="copy_tasks">Повторяющиеся задания</string>
+    <string name="completed_tasks">Выполненные задания</string>
+
+</resources>

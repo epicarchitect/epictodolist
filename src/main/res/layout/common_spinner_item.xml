@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CommonSpinnerLayout">
+
+    <ImageView
+        android:id="@+id/icon"
+        style="@style/SmallIcon"
+        app:srcCompat="@drawable/ic_strength" />
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/TextView"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:layout_marginRight="@dimen/small_margin"
+        android:lines="1"
+        tools:text="content" />
+
+</LinearLayout>

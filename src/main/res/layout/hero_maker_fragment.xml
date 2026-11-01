@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    style="@style/BackgroundLayout"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/top_bar_create"
+            style="@style/LinearLayout"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/TitleTextView"
+                android:gravity="center"
+                android:text="@string/hero_creating" />
+
+            <EditText
+                android:id="@+id/input_name_create"
+                style="@style/EditText"
+                android:layout_height="40dp"
+                android:layout_marginLeft="@dimen/big_margin"
+                android:layout_marginRight="@dimen/big_margin"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="@string/hero_name_create"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top_bar_edit"
+            style="@style/HorizontalLinearLayout"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/button_back"
+                style="@style/ImageBack"
+                android:focusable="true" />
+
+            <EditText
+                android:id="@+id/input_name"
+                style="@style/EditText"
+                android:layout_height="40dp"
+                android:layout_marginLeft="@dimen/big_margin"
+                android:layout_marginRight="@dimen/big_margin"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="@string/hero_name"
+                android:inputType="text" />
+
+            <ImageView
+                android:id="@+id/button_done"
+                style="@style/ImageDone"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            style="@style/ScrollView"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout style="@style/LinearLayout">
+
+                <FrameLayout
+                    style="@style/FrameLayout"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:id="@+id/hero_frame"
+                        style="@style/HeroFrameLayout">
+
+                        <FrameLayout
+                            android:id="@+id/hero_body_container"
+                            style="@style/FrameLayout" />
+
+                        <include layout="@layout/top_border_layout" />
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        style="@style/LinearLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center|end">
+
+                        <ImageView
+                            android:id="@+id/button_headdress"
+                            style="@style/SmallIcon"
+                            android:layout_margin="@dimen/small_margin"
+                            app:srcCompat="@drawable/ic_headdress_hide" />
+
+                        <ImageView
+                            android:id="@+id/button_random"
+                            style="@style/SmallIcon"
+                            android:layout_margin="@dimen/small_margin"
+                            app:srcCompat="@drawable/ic_random" />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    style="@style/HorizontalLinearLayout"
+                    android:layout_margin="@dimen/small_margin"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/button_gender_0"
+                        style="@style/ImageViewButton"
+                        android:background="@drawable/bg_active"
+                        android:padding="@dimen/small_margin"
+                        app:srcCompat="@drawable/ic_man" />
+
+                    <ImageView
+                        android:id="@+id/button_gender_1"
+                        style="@style/ImageViewButton"
+                        android:padding="@dimen/small_margin"
+                        app:srcCompat="@drawable/ic_woman" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/navigation_container"
+                    style="@style/FrameLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_parts"
+                    style="@style/RecyclerView" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/analytics_consent_layout"
+            style="@style/LinearLayout"
+            android:layout_margin="@dimen/big_margin"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <CheckBox
+                android:id="@+id/check_analytics_consent"
+                style="@style/CheckBox"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_analytics_consent"
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_marginStart="@dimen/small_margin"
+                android:layout_weight="1"
+                android:text="@string/analytics_consent_text"
+                android:textColorLink="?attr/colorAccent" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_continue_create"
+            style="@style/Button"
+            android:layout_marginLeft="@dimen/big_margin"
+            android:layout_marginRight="@dimen/big_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginBottom="@dimen/big_margin"
+            android:text="@string/continue_action"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</FrameLayout>

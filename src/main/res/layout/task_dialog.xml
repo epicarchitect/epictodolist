@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/LinearLayout">
+
+    <ImageView
+        android:id="@+id/icon"
+        style="@style/Icon"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/icon_default" />
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/TextView"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="To do" />
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout"
+        android:layout_marginTop="@dimen/margin">
+
+        <ImageView
+            style="@style/Line"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_marginStart="@dimen/margin"
+
+            android:layout_marginEnd="@dimen/margin"
+            android:gravity="center"
+            android:text="@string/reward" />
+
+        <ImageView
+            style="@style/Line"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_marginTop="@dimen/small_margin">
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_coin" />
+
+            <TextView
+                android:id="@+id/coins"
+                style="@style/TextView"
+                android:text="0" />
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_progress" />
+
+            <TextView
+                android:id="@+id/progress"
+                style="@style/TextView"
+                android:text="0" />
+
+            <ImageView
+                android:id="@+id/icon_attribute"
+                style="@style/SmallIcon"
+                android:layout_marginLeft="@dimen/small_margin"
+                app:srcCompat="@drawable/ic_strength" />
+
+            <TextView
+                android:id="@+id/points_attribute"
+                style="@style/TextView"
+                android:text="0" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

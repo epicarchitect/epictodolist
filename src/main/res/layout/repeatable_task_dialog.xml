@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout" />
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar" />
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <include layout="@layout/task_dialog" />
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            style="@style/TextView"
+                            android:layout_marginStart="@dimen/margin"
+
+                            android:layout_marginEnd="@dimen/margin"
+                            android:gravity="center"
+                            android:text="@string/details" />
+
+                        <ImageView
+                            style="@style/Line"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/copy_days"
+                        style="@style/TextView"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="Дни автозоздания: ..." />
+
+                    <TextView
+                        android:id="@+id/copy_time"
+                        style="@style/TextView"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="Время aвтосоздания: 00:00" />
+
+                    <TextView
+                        android:id="@+id/next_date_create"
+                        style="@style/TextView"
+                        android:layout_marginTop="@dimen/small_margin"
+                        android:text="Следующее в: 00:00 00.00.00" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

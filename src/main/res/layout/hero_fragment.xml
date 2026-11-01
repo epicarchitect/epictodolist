@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    style="@style/BackgroundLayout">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        style="@style/ScrollView">
+
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:paddingBottom="@dimen/margin">
+
+            <LinearLayout
+                style="@style/HorizontalLinearLayout"
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin">
+
+                <ImageView
+                    android:id="@+id/button_edit"
+                    style="@style/SmallIcon"
+                    app:srcCompat="@drawable/ic_edit_dark" />
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/TitleTextView"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="Александр" />
+
+                <ImageView
+                    android:id="@+id/button_settings"
+                    style="@style/SmallIcon"
+                    app:srcCompat="@drawable/ic_settings" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                style="@style/FrameLayout"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:id="@+id/hero_frame"
+                    style="@style/HeroFrameLayout">
+
+                    <FrameLayout
+                        android:id="@+id/hero_body_container"
+                        style="@style/FrameLayout" />
+
+                    <include layout="@layout/top_border_layout" />
+
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/button_headdress"
+                    style="@style/SmallIcon"
+                    android:layout_gravity="center|end"
+                    android:layout_marginEnd="@dimen/small_margin"
+                    app:srcCompat="@drawable/ic_headdress_hide" />
+
+                <ImageView
+                    android:id="@+id/button_music"
+                    style="@style/SmallIcon"
+                    android:layout_gravity="center|start"
+                    android:layout_marginStart="@dimen/small_margin"
+                    app:srcCompat="@drawable/ic_music" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/navigation_container"
+                style="@style/FrameLayout"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin" />
+
+            <FrameLayout
+                android:id="@+id/fragments_container"
+                style="@style/FrameLayout"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

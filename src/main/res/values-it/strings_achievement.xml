@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="achieved">Traguardi</string>
+
+    <string name="the_beginning_of_the_way">L\'inizio dell\'avventura</string>
+    <string name="progressive">Diligente</string>
+    <string name="sportsman">Sportivo</string>
+    <string name="scientist">Scienziato</string>
+    <string name="creative_person">Fantasioso</string>
+    <string name="healthy">In salute</string>
+    <string name="spender">Spendaccione</string>
+    <string name="banker">Banchiere</string>
+    <string name="im_not_small_anymore">Sono un adulto ora!</string>
+    <string name="complete_one_task">Completa una missione.</string>
+    <string name="accumulate_500_total_hero_progress">Accumula 500 punti esperienza.</string>
+    <string name="accumulate_100_attribute_strength_points">Accumula 100 punti di Forza.</string>
+    <string name="accumulate_100_attribute_intellect_points">Accumula 100 punti di Intelligenza.</string>
+    <string name="accumulate_100_attribute_creation_points">Accumula 100 punti di Creazione.</string>
+    <string name="accumulate_100_attribute_health_points">Accumula 100 punti di Salute.</string>
+    <string name="spend_1000_coins">Spendi 1000 monete.</string>
+    <string name="accumulate_1000_coins">Accumula 1000 monete.</string>
+    <string name="reach_hero_level_5">Raggiungi il livello 5 dell\'Eroe.</string>
+
+</resources>

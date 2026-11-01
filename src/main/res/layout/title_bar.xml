@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HorizontalLinearLayout">
+
+    <ImageView
+        android:id="@+id/button_back"
+        style="@style/ImageBack" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TitleTextView"
+        android:layout_marginRight="45dp" />
+
+</LinearLayout>

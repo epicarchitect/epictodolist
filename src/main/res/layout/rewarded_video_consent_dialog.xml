@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout" />
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar" />
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout
+                    style="@style/InnerLayoutScrollViewDialog"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_message"
+                        style="@style/TextView"
+                        android:gravity="center"
+                        android:lineSpacingExtra="2dp"
+                        android:text="@string/watch_a_video_for_5_crystals" />
+
+                    <LinearLayout
+                        style="@style/HorizontalLinearLayout"
+                        android:layout_marginTop="@dimen/big_margin"
+                        android:baselineAligned="false"
+                        android:gravity="top">
+
+                        <CheckBox
+                            android:id="@+id/check_personalized_ads"
+                            style="@style/CheckBox"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="2dp" />
+
+                        <TextView
+                            android:id="@+id/tv_ads_consent"
+                            style="@style/TextView"
+                            android:layout_width="0dp"
+                            android:layout_marginStart="@dimen/small_margin"
+                            android:layout_weight="1"
+                            android:ellipsize="none"
+                            android:paddingBottom="2dp"
+                            android:textColorLink="?attr/colorAccent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/HorizontalLinearLayout"
+                        android:layout_marginTop="@dimen/big_margin">
+
+                        <Button
+                            android:id="@+id/button_no"
+                            style="@style/Button"
+                            android:layout_marginStart="@dimen/small_margin"
+                            android:layout_marginEnd="@dimen/small_margin"
+                            android:layout_weight="1"
+                            android:text="@string/no" />
+
+                        <Button
+                            android:id="@+id/button_watch"
+                            style="@style/Button"
+                            android:layout_marginStart="@dimen/small_margin"
+                            android:layout_marginEnd="@dimen/small_margin"
+                            android:layout_weight="1"
+                            android:text="@string/watch" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

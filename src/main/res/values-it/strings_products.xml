@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="unlocked">Sbloccato</string>
+    <string name="take_off">Rimuovi</string>
+    <string name="it_cant_be_removed">Non può essere rimosso</string>
+
+    <string name="features">Funzioni</string>
+    <string name="themes">Temi</string>
+    <string name="costumes">Costumi</string>
+    <string name="locations">Locazioni</string>
+
+    <string name="unlock_part">Sblocca parte</string>
+    <string name="activate">Attiva</string>
+
+    <string name="not_enough_crystals">Non hai abbastanza cristalli</string>
+    <string name="not_enough_coins">Non hai abbastanza monete</string>
+    <string name="already_unlocked">Già sbloccato</string>
+    <string name="part_unlocked">Parte sbloccata</string>
+
+    <string name="costume_warrior">Guerriero</string>
+
+    <string name="notifications">Notifiche</string>
+    <string name="attribute_graph">Grafico degli attributi</string>
+    <string name="task_list_widget">Widget - lista dei compiti</string>
+    <string name="copy_tasks_feature">Compiti ricorrenti</string>
+
+    <string name="home_of_creator">Casa del Creatore</string>
+    <string name="forest">Foresta</string>
+
+    <string name="peach_theme">Tema pesca</string>
+    <string name="iron_theme">Tema ferro</string>
+    <string name="woody_theme">Tema legno</string>
+    <string name="system_theme">Tema systema</string>
+
+</resources>

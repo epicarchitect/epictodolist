@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="unlocked">Unlocked</string>
+    <string name="take_off">Remove</string>
+    <string name="it_cant_be_removed">It can\'t be removed</string>
+
+    <string name="features">Features</string>
+    <string name="themes">Themes</string>
+    <string name="costumes">Costumes</string>
+    <string name="locations">Locations</string>
+
+    <string name="unlock_part">Unlock part</string>
+    <string name="activate">Activate</string>
+
+    <string name="not_enough_crystals">Not enough crystals</string>
+    <string name="not_enough_coins">Not enough coins</string>
+    <string name="already_unlocked">Already unlocked</string>
+    <string name="part_unlocked">Part unlocked</string>
+
+    <string name="costume_warrior">Warrior</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="attribute_graph">Attribute graph</string>
+    <string name="task_list_widget">Widget - list of tasks</string>
+    <string name="copy_tasks_feature">Repeatable tasks</string>
+
+    <string name="home_of_creator">Home of creator</string>
+    <string name="forest">Forest</string>
+
+    <string name="peach_theme">Peach theme</string>
+    <string name="iron_theme">Iron theme</string>
+    <string name="woody_theme">Woody theme</string>
+    <string name="system_theme">System theme</string>
+
+</resources>

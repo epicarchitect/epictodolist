@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    style="@style/ProductBorderLayout"
+    android:layout_height="175dp">
+
+    <LinearLayout
+        style="@style/ProductMainLayout"
+        android:layout_width="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/icon"
+            style="@style/Icon"
+            app:srcCompat="@drawable/icon_default" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:lines="3"
+            tools:text="text" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/ProgressBar"
+            android:progress="0" />
+
+    </LinearLayout>
+
+</FrameLayout>

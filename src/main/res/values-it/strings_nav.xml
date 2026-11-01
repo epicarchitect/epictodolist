@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="creator">Creatore</string>
+    <string name="inventory">Inventario</string>
+    <string name="hero">Eroe</string>
+
+    <string name="skills">Abilità</string>
+    <string name="achievements">Traguardi</string>
+
+    <string name="current_tasks">Compiti attivi</string>
+    <string name="copy_tasks">Compiti ricorrenti</string>
+    <string name="completed_tasks">Compiti completati</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/HorizontalLinearLayout"
+    android:visibility="visible"
+    android:weightSum="2">
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_strength" />
+
+            <TextView
+                android:id="@+id/strength"
+                style="@style/TextView"
+                android:text="Сила: 0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_intellect" />
+
+            <TextView
+                android:id="@+id/intellect"
+                style="@style/TextView"
+                android:text="Интеллект: 0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_creation" />
+
+            <TextView
+                android:id="@+id/creation"
+                style="@style/TextView"
+                android:text="Творчество: 0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/HorizontalLinearLayout">
+
+            <ImageView
+                style="@style/SmallIcon"
+                app:srcCompat="@drawable/ic_health" />
+
+            <TextView
+                android:id="@+id/health"
+                style="@style/TextView"
+                android:text="Здоровье: 0" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/attribute_graph_container"
+        style="@style/FrameLayout"
+        android:layout_weight="1" />
+
+</LinearLayout>

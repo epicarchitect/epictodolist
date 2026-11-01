@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/FrameLayout">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        style="@style/ScrollView"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:gravity="center_horizontal">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:layout_height="45dp"
+                android:text="@string/creator" />
+
+            <FrameLayout
+                android:id="@+id/creator_frame"
+                style="@style/HeroFrameLayout">
+
+                <FrameLayout
+                    android:id="@+id/creator_body_container"
+                    style="@style/FrameLayout" />
+
+                <include layout="@layout/top_border_layout" />
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/button_ask"
+                style="@style/Button"
+                android:layout_marginHorizontal="@dimen/big_margin"
+                android:layout_marginVertical="@dimen/margin"
+                android:text="@string/ask" />
+
+            <Button
+                android:id="@+id/button_rate"
+                style="@style/Button"
+                android:layout_gravity="bottom"
+                android:layout_marginHorizontal="@dimen/big_margin"
+                android:layout_marginBottom="@dimen/margin"
+                android:text="@string/rate_the_creator" />
+
+            <Button
+                android:id="@+id/button_support_creator"
+                style="@style/Button"
+                android:layout_gravity="bottom"
+                android:layout_marginHorizontal="@dimen/big_margin"
+                android:layout_marginBottom="@dimen/margin"
+                android:text="@string/support_creator_and_bonus" />
+
+            <Button
+                android:id="@+id/button_privacy_policy"
+                style="@style/Button"
+                android:layout_gravity="bottom"
+                android:layout_marginHorizontal="@dimen/big_margin"
+                android:layout_marginBottom="@dimen/margin"
+                android:text="@string/privacy_policy"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button_open_source_on_github"
+                style="@style/Button"
+                android:layout_gravity="bottom"
+                android:layout_marginHorizontal="@dimen/big_margin"
+                android:layout_marginBottom="@dimen/margin"
+                android:text="@string/open_source_on_github" />
+
+            <!--            <TextView-->
+            <!--                style="@style/TitleTextView"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:gravity="center"-->
+            <!--                android:text="@string/friends_of_the_creator" />-->
+
+            <!--            <FrameLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="@dimen/big_margin"-->
+            <!--                android:layout_marginEnd="@dimen/big_margin"-->
+            <!--                android:background="@drawable/border">-->
+
+            <!--                <FrameLayout-->
+            <!--                    android:id="@+id/button_poleshchukStyle"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:layout_margin="4dp"-->
+            <!--                    android:background="?attr/selectableItemBackground"-->
+            <!--                    android:padding="@dimen/margin">-->
+
+            <!--                    <ImageView-->
+            <!--                        android:layout_width="50dp"-->
+            <!--                        android:layout_height="50dp"-->
+            <!--                        android:padding="6dp"-->
+            <!--                        android:src="@drawable/ic_telegram" />-->
+
+            <!--                    <TextView-->
+            <!--                        style="@style/TextView"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginStart="60dp"-->
+            <!--                        android:layout_marginTop="6dp"-->
+            <!--                        android:text="YANA POLESHCHUK"-->
+            <!--                        android:textSize="16sp"-->
+            <!--                        android:textStyle="bold"-->
+            <!--                        tools:ignore="HardcodedText" />-->
+
+            <!--                    <TextView-->
+            <!--                        style="@style/SecondaryTextView"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginStart="60dp"-->
+            <!--                        android:layout_marginTop="26dp"-->
+            <!--                        android:alpha="0.8"-->
+            <!--                        android:text="@string/telegram_channel_about_fashion_and_style"-->
+            <!--                        android:textSize="12sp" />-->
+
+            <!--                </FrameLayout>-->
+            <!--            </FrameLayout>-->
+
+            <TextView
+                style="@style/TitleTextView"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/other_creator_apps" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/big_margin"
+                android:layout_marginEnd="@dimen/big_margin"
+                android:background="@drawable/border">
+
+                <FrameLayout
+                    android:id="@+id/button_breakBadHabits"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="@dimen/margin">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_break_bad_habits" />
+
+                    <TextView
+                        style="@style/TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginTop="6dp"
+                        android:text="Break Bad Habits"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        style="@style/SecondaryTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginTop="26dp"
+                        android:alpha="0.8"
+                        android:text="@string/go_to_google_play"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+            </FrameLayout>
+
+            <TextView
+                style="@style/TextView"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/big_margin"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="@dimen/big_margin"
+                android:gravity="center"
+                android:text="@string/translation_michael_taroni" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_answer"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="50dp"
+        android:alpha="0"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:paddingStart="12dp"
+        android:paddingTop="@dimen/margin"
+        android:paddingEnd="12dp"
+        android:paddingBottom="@dimen/margin"
+        tools:text="answer" />
+
+    <FrameLayout
+        android:id="@+id/questions_layout"
+        style="@style/BackgroundLayout"
+        android:layout_height="0dp"
+        android:alpha="0.8">
+
+        <FrameLayout
+            android:id="@+id/rv_container"
+            style="@style/FrameLayout" />
+
+        <ImageView
+            android:id="@+id/button_hide_questions"
+            style="@style/ImageViewButton"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/margin"
+            app:srcCompat="@drawable/ic_arrow_up" />
+
+    </FrameLayout>
+
+</FrameLayout>

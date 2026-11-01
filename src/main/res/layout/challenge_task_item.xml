@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    style="@style/HorizontalLinearLayout"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/icon"
+        style="@style/SmallIcon"
+        app:srcCompat="@drawable/ic_strength" />
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/ListItemContent"
+        android:layout_weight="1"
+        android:lines="2" />
+
+    <ImageView
+        android:id="@+id/button_delete"
+        style="@style/ImageViewButton"
+        app:srcCompat="@drawable/ic_close" />
+
+</LinearLayout>

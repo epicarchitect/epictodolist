@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout style="@style/MainLayoutDialog">
+
+        <include layout="@layout/border_layout" />
+
+        <LinearLayout style="@style/BackgroundLayoutDialog">
+
+            <include layout="@layout/title_bar_with_done" />
+
+            <ScrollView style="@style/ScrollView">
+
+                <LinearLayout style="@style/InnerLayoutScrollViewDialog">
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <ImageView
+                            android:id="@+id/icon"
+                            style="@style/IconLeft"
+                            app:srcCompat="@drawable/icon_default" />
+
+                        <EditText
+                            android:id="@+id/et_title"
+                            style="@style/EditText"
+                            android:layout_marginLeft="@dimen/small_margin"
+                            android:hint="@string/title" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinearLayout">
+
+                        <TextView
+                            style="@style/TextView"
+                            android:text="@string/number_of_days" />
+
+                        <EditText
+                            android:id="@+id/et_count_days"
+                            style="@style/EditText"
+                            android:layout_width="wrap_content"
+                            android:layout_marginStart="@dimen/margin"
+                            android:gravity="center"
+                            android:hint="30"
+                            android:inputType="number"
+                            android:lines="1"
+                            android:paddingStart="@dimen/big_margin"
+                            android:paddingEnd="@dimen/big_margin" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/button_add_task"
+                        style="@style/Button"
+                        android:layout_marginTop="@dimen/margin"
+                        android:text="@string/add_task" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <FrameLayout
+                android:id="@+id/rv_container"
+                style="@style/FrameLayout"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="@dimen/margin" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

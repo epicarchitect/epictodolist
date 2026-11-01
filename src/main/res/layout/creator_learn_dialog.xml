@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    style="@style/FrameLayout">
+
+    <FrameLayout style="@style/ShadowLayoutDialog" />
+
+    <FrameLayout
+        android:id="@+id/content_layout"
+        style="@style/FrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <LinearLayout style="@style/LinearLayout">
+
+            <FrameLayout
+                android:id="@+id/message_container"
+                style="@style/FrameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dialog_margin"
+                android:layout_marginTop="@dimen/dialog_margin"
+                android:layout_marginRight="@dimen/dialog_margin"
+                android:layout_marginBottom="-50dp"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_message"
+                    style="@style/TextView"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/big_margin"
+                    tools:text="@string/learn_unlock_copy_tasks_message" />
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/creator_frame"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="-50dp">
+
+                <FrameLayout
+                    android:id="@+id/creator_body_container"
+                    style="@style/FrameLayout" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                style="@style/BorderLayout"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="@dimen/margin"
+                android:layout_marginEnd="@dimen/margin"
+                android:layout_marginBottom="@dimen/margin">
+
+                <include layout="@layout/border_layout" />
+
+                <LinearLayout style="@style/BackgroundLayoutDialog">
+
+                    <include layout="@layout/title_bar" />
+
+                    <ScrollView style="@style/ScrollView">
+
+                        <LinearLayout style="@style/LinearLayout">
+
+                            <LinearLayout
+                                android:id="@+id/learn_buttons_layout"
+                                style="@style/LinearLayout"
+                                android:layout_marginStart="@dimen/margin"
+                                android:layout_marginEnd="@dimen/margin"
+                                android:layout_marginBottom="@dimen/margin">
+
+                                <Button
+                                    android:id="@+id/button_question_0"
+                                    style="@style/Button"
+                                    android:text="button_0" />
+
+                                <Button
+                                    android:id="@+id/button_question_1"
+                                    style="@style/Button"
+                                    android:layout_marginTop="@dimen/small_margin"
+                                    android:text="button_1" />
+
+                                <Button
+                                    android:id="@+id/button_question_2"
+                                    style="@style/Button"
+                                    android:layout_marginTop="@dimen/small_margin"
+                                    android:text="button_2" />
+
+                                <Button
+                                    android:id="@+id/button_got_it"
+                                    style="@style/Button"
+                                    android:layout_marginTop="@dimen/small_margin"
+                                    android:text="@string/got_it" />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/reminder_offer_task_layout"
+                                style="@style/LinearLayout"
+                                android:layout_marginStart="@dimen/margin"
+                                android:layout_marginEnd="@dimen/margin"
+                                android:layout_marginBottom="@dimen/margin"
+                                android:visibility="gone">
+
+                                <LinearLayout style="@style/HorizontalLinearLayout">
+
+                                    <ImageView
+                                        android:id="@+id/icon"
+                                        style="@style/IconLeft"
+                                        app:srcCompat="@drawable/icon_default" />
+
+                                    <TextView
+                                        style="@style/TextView"
+                                        android:layout_marginStart="@dimen/small_margin"
+                                        android:text="@string/rate_epic_to_do_list_on_play_market" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    style="@style/TextView"
+                                    android:layout_marginStart="@dimen/small_margin"
+                                    android:layout_marginTop="@dimen/small_margin"
+                                    android:text="@string/remind_in" />
+
+                                <FrameLayout
+                                    android:id="@+id/notification_maker_container"
+                                    style="@style/FrameLayout"
+                                    android:layout_height="wrap_content" />
+
+                                <LinearLayout
+                                    style="@style/HorizontalLinearLayout"
+                                    android:layout_marginTop="@dimen/margin">
+
+                                    <Button
+                                        android:id="@+id/button_cancel"
+                                        style="@style/Button"
+                                        android:layout_marginEnd="@dimen/margin"
+                                        android:layout_weight="1"
+                                        android:text="@string/cancel" />
+
+                                    <Button
+                                        android:id="@+id/button_done"
+                                        style="@style/Button"
+                                        android:layout_marginStart="@dimen/margin"
+                                        android:layout_weight="1"
+                                        android:text="@string/done" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

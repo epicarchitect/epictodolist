@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ABOUT ERRORS -->
+
+    <string name="question_about_errors">How often do errors occur in the application?</string>
+
+    <string-array name="answers_about_errors">
+        <item>Never</item>
+        <item>Rarely</item>
+        <item>Often</item>
+    </string-array>
+
+    <!-- ABOUT NEXT -->
+
+    <string name="question_about_next">What should be improved first?</string>
+
+    <string-array name="answers_about_next">
+        <item>Design</item>
+        <item>Functionality</item>
+        <item>Inventory Items</item>
+        <item>The logic of gamification</item>
+    </string-array>
+
+    <!-- ABOUT DESIGN -->
+
+    <string name="question_about_design">How would you rate the design of the app?</string>
+
+    <string-array name="answers_about_design">
+        <item>Boring</item>
+        <item>Bright</item>
+        <item>Ugly</item>
+        <item>Normal</item>
+        <item>I do not care</item>
+    </string-array>
+
+    <!-- ABOUT NUMBER STARTS -->
+
+    <string name="question_about_number_starts">How many times a day do you launch the application?</string>
+
+    <string-array name="answers_about_number_starts">
+        <item>0–1</item>
+        <item>2–4</item>
+        <item>5–7</item>
+        <item>8–10</item>
+        <item>I DON\'T LEAVE IT</item>
+    </string-array>
+
+</resources>
